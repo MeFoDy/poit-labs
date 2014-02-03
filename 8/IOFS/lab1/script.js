@@ -1,9 +1,3 @@
-$(function() {
-
-
-
-});
-
 function loadEnglish() {
 	loadSrc("texts/eng.txt");
 }
@@ -226,10 +220,8 @@ function secondCalc(input, words) {
 	var keywords = [];
 	var subrankSize = Math.floor(rank.length / 2);
 	var subRank = rank.slice(Math.floor(rank.length / 5), Math.floor(rank.length / 5) + subrankSize);
-	console.log(subRank);
 	for (var key in input){
 		if(input.hasOwnProperty(key) && subRank.indexOf(input[key].rank) !== -1) {
-			//console.log(key, input[key].rank);
 			keywords.push({word: key, variety: input[key].variety});
 		}
 	}
