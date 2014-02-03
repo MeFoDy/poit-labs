@@ -1,0 +1,9 @@
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\bin\Debug\lab1.exe.config
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\bin\Debug\lab1.exe
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\bin\Debug\lab1.pdb
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.MainForm.resources
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.exe
+D:\BSUIR\7 семестр\ЦОС\labs\lab1\lab1\obj\Debug\lab1.pdb

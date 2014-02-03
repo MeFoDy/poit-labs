@@ -1,0 +1,9 @@
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\bin\Debug\SAMM 3.exe.config
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\bin\Debug\SAMM 3.exe
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\bin\Debug\SAMM 3.pdb
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM 3.csprojResolveAssemblyReference.cache
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM_3.Form1.resources
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM_3.Properties.Resources.resources
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM 3.csproj.GenerateResource.Cache
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM 3.exe
+D:\BSUIR\7 семестр\САММ\lab3\SAMM 3\SAMM 3\obj\Debug\SAMM 3.pdb
