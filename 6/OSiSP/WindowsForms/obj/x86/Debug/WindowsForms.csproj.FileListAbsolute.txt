@@ -1,0 +1,11 @@
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\bin\Debug\WindowsForms.exe
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\bin\Debug\WindowsForms.pdb
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\WindowsForms.MainForm.resources
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\WindowsForms.Properties.Resources.resources
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\WindowsForms.exe
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\obj\x86\Debug\WindowsForms.pdb
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\bin\Debug\Tracer.dll
+D:\БГУИР\6 семестр\ОСиСП\WindowsForms\bin\Debug\Tracer.pdb

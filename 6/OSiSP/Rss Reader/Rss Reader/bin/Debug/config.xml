@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<users>
+  <user name="Dark_MeFoDy">
+    <filtering>
+      <threadCount>5</threadCount>
+    </filtering>
+    <sites>
+      <site>http://bash.org.ru/rss/</site>
+      <site>http://dengi.onliner.by/feed</site>
+      <site>http://www.bsuir.by/rss?rubid=102243&amp;resid=100229</site>
+      <site>http://fksis.bsuir.by/rss/news</site>
+      <site>http://tech.onliner.by/feed</site>
+      <site>http://tproger.ru/rss/feed</site>
+      <site>http://habrahabr.ru/rss/hubs/</site>
+      <site>http://st.kinopoisk.ru/rss/news.rss</site>
+      <site>http://st.kinopoisk.ru/rss/soundtrack.rss</site>
+      <site>http://images.apple.com/main/rss/hotnews/hotnews.rss</site>
+    </sites>
+  </user>
+  <user name="Some_User">
+    <filtering>
+      <threadCount>5</threadCount>
+      <include>БГУИР|Цитата|программист</include>
+      <exclude> БГУ &amp; БГУИР </exclude>
+    </filtering>
+    <sites>
+      <site>http://bash.org.ru/rss/</site>
+      <site>http://dengi.onliner.by/feed</site>
+      <site>http://www.bsuir.by/rss?rubid=102243&amp;resid=100229</site>
+      <site>http://fksis.bsuir.by/rss/news</site>
+      <site>http://tech.onliner.by/feed</site>
+      <site>http://tproger.ru/rss/feed</site>
+      <site>http://habrahabr.ru/rss/hubs/</site>
+      <site>http://st.kinopoisk.ru/rss/news.rss</site>
+      <site>http://st.kinopoisk.ru/rss/soundtrack.rss</site>
+      <site>http://images.apple.com/main/rss/hotnews/hotnews.rss</site>
+    </sites>
+  </user>
+</users>

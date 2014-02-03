@@ -1,0 +1,14 @@
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\Lab1-2.exe
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\Lab1-2.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1_2.MainForm.resources
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1_2.Properties.Resources.resources
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1-2.exe
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1-2.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1_2.ShowElementsForm.resources
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\Lab1-2.exe.config
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1_2.SplashScreen.resources
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\protobuf-net.dll
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\protobuf-net.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\bin\Debug\protobuf-net.xml
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1-2.csproj.GenerateResource.Cache
+D:\БГУИР\6 семестр\БД\Lab1-2\obj\x86\Debug\Lab1_2.SearchForm.resources

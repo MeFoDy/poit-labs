@@ -1,0 +1,5 @@
+D:\БГУИР\6 семестр\ОСиСП\Tracer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\6 семестр\ОСиСП\Tracer\bin\Debug\Tracer.dll
+D:\БГУИР\6 семестр\ОСиСП\Tracer\bin\Debug\Tracer.pdb
+D:\БГУИР\6 семестр\ОСиСП\Tracer\obj\x86\Debug\Tracer.dll
+D:\БГУИР\6 семестр\ОСиСП\Tracer\obj\x86\Debug\Tracer.pdb

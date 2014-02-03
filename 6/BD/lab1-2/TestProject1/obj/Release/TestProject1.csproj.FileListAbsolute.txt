@@ -1,0 +1,4 @@
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\bin\Release\TestProject1.dll
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\bin\Release\TestProject1.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\obj\Release\TestProject1.dll
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\obj\Release\TestProject1.pdb

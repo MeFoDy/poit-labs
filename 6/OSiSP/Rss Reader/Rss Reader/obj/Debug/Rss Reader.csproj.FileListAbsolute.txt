@@ -1,0 +1,10 @@
+D:\БГУИР\6 семестр\ОСиСП\Rss Reader\Rss Reader\bin\Debug\Rss Reader.exe.config
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\bin\Debug\Rss Reader.exe.config
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\bin\Debug\Rss Reader.exe
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\bin\Debug\Rss Reader.pdb
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss Reader.csprojResolveAssemblyReference.cache
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss_Reader.FeedForm.resources
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss_Reader.Properties.Resources.resources
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss Reader.csproj.GenerateResource.Cache
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss Reader.exe
+D:\BSUIR\051004\OSiSP\Rss Reader\Rss Reader\obj\Debug\Rss Reader.pdb

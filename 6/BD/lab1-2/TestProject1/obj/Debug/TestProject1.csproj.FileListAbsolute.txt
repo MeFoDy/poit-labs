@@ -1,0 +1,5 @@
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\bin\Debug\TestProject1.dll
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\bin\Debug\TestProject1.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\obj\Debug\TestProject1.dll
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\obj\Debug\TestProject1.pdb
+D:\БГУИР\6 семестр\БД\Lab1-2\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache

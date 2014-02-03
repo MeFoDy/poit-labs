@@ -1,0 +1,7 @@
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\bin\Debug\TestTracer.exe
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\bin\Debug\TestTracer.pdb
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\bin\Debug\Tracer.dll
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\bin\Debug\Tracer.pdb
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\obj\x86\Debug\TestTracer.exe
+D:\БГУИР\6 семестр\ОСиСП\TestTracer\obj\x86\Debug\TestTracer.pdb

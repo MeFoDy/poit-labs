@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tracing>
+  <thread id="10">
+    <call>
+      <method name="Main" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="9,0006" />
+    </call>
+    <call>
+      <method name="Main" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="2105,1204" />
+      <nestedCalls>
+        <call>
+          <method name="Main" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="2105,1204" />
+          <nestedCalls>
+            <call>
+              <method name="Main" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="2105,1204" />
+              <nestedCalls>
+                <call>
+                  <method name="OtherMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="1102,0631" />
+                  <nestedCalls>
+                    <call>
+                      <method name="OtherMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="1100,0629" />
+                      <nestedCalls>
+                        <call>
+                          <method name="OneMoreMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="50,0028" />
+                        </call>
+                      </nestedCalls>
+                    </call>
+                  </nestedCalls>
+                </call>
+              </nestedCalls>
+            </call>
+          </nestedCalls>
+        </call>
+      </nestedCalls>
+    </call>
+  </thread>
+  <thread id="11">
+    <call>
+      <method name="OtherMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="1100,0629" />
+      <nestedCalls>
+        <call>
+          <method name="OtherMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="1100,0629" />
+          <nestedCalls>
+            <call>
+              <method name="OneMoreMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="50,0028" />
+            </call>
+          </nestedCalls>
+        </call>
+      </nestedCalls>
+    </call>
+    <call>
+      <method name="OneMoreMethod" module="TestTracer.exe" class="Tracer.TestApp.Program" elapsedMilliseconds="50,0029" />
+    </call>
+  </thread>
+</tracing>

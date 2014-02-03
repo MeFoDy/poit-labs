@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="Calculator" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="Calculator" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="Calculator/Imports">
+      <xsd:import namespace="Calculator" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/CalculatorService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICalculatorService_Test_InputMessage">
+    <wsdl:part name="parameters" element="tns:Test" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Test_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_ExceptionTest_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExceptionTest" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_ExceptionTest_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExceptionTestResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_ExceptionTest_ServiceDataFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/CalculatorService" name="detail" element="q1:ServiceData" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Add_InputMessage">
+    <wsdl:part name="parameters" element="tns:Add" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Subtract_InputMessage">
+    <wsdl:part name="parameters" element="tns:Subtract" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Subtract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SubtractResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Multiply_InputMessage">
+    <wsdl:part name="parameters" element="tns:Multiply" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Multiply_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MultiplyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Divide_InputMessage">
+    <wsdl:part name="parameters" element="tns:Divide" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Divide_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DivideResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Calculate_InputMessage">
+    <wsdl:part name="parameters" element="tns:Calculate" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Calculate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CalculateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Save_InputMessage">
+    <wsdl:part name="parameters" element="tns:Save" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Save_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Clear_InputMessage">
+    <wsdl:part name="parameters" element="tns:Clear" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_Clear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_ClearAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearAll" />
+  </wsdl:message>
+  <wsdl:message name="ICalculatorService_ClearAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearAllResponse" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="ICalculatorService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Test">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Test" message="tns:ICalculatorService_Test_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/TestResponse" message="tns:ICalculatorService_Test_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ExceptionTest">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/ExceptionTest" message="tns:ICalculatorService_ExceptionTest_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/ExceptionTestResponse" message="tns:ICalculatorService_ExceptionTest_OutputMessage" />
+      <wsdl:fault wsaw:Action="Calculator/ICalculatorService/ExceptionTestServiceDataFault" name="ServiceDataFault" message="tns:ICalculatorService_ExceptionTest_ServiceDataFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Add">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Add" message="tns:ICalculatorService_Add_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/AddResponse" message="tns:ICalculatorService_Add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Subtract">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Subtract" message="tns:ICalculatorService_Subtract_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/SubtractResponse" message="tns:ICalculatorService_Subtract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Multiply">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Multiply" message="tns:ICalculatorService_Multiply_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/MultiplyResponse" message="tns:ICalculatorService_Multiply_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Divide">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Divide" message="tns:ICalculatorService_Divide_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/DivideResponse" message="tns:ICalculatorService_Divide_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Calculate">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Calculate" message="tns:ICalculatorService_Calculate_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/CalculateResponse" message="tns:ICalculatorService_Calculate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Save">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Save" message="tns:ICalculatorService_Save_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/SaveResponse" message="tns:ICalculatorService_Save_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Clear">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/Clear" message="tns:ICalculatorService_Clear_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/ClearResponse" message="tns:ICalculatorService_Clear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ClearAll">
+      <wsdl:input wsaw:Action="Calculator/ICalculatorService/ClearAll" message="tns:ICalculatorService_ClearAll_InputMessage" />
+      <wsdl:output wsaw:Action="Calculator/ICalculatorService/ClearAllResponse" message="tns:ICalculatorService_ClearAll_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

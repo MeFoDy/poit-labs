@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracer", "Tracer.csproj", "{61395075-09B8-4BB0-986F-8D904E569C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTracer", "..\TestTracer\TestTracer.csproj", "{BEC07B9D-33E2-4C12-9964-E82FB9E3F026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "..\WindowsForms\WindowsForms.csproj", "{BB0AC26D-ACB3-41F0-99C8-66F0E3FA9B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61395075-09B8-4BB0-986F-8D904E569C27}.Debug|x86.ActiveCfg = Debug|x86
+		{61395075-09B8-4BB0-986F-8D904E569C27}.Debug|x86.Build.0 = Debug|x86
+		{61395075-09B8-4BB0-986F-8D904E569C27}.Release|x86.ActiveCfg = Release|x86
+		{61395075-09B8-4BB0-986F-8D904E569C27}.Release|x86.Build.0 = Release|x86
+		{BEC07B9D-33E2-4C12-9964-E82FB9E3F026}.Debug|x86.ActiveCfg = Debug|x86
+		{BEC07B9D-33E2-4C12-9964-E82FB9E3F026}.Debug|x86.Build.0 = Debug|x86
+		{BEC07B9D-33E2-4C12-9964-E82FB9E3F026}.Release|x86.ActiveCfg = Release|x86
+		{BEC07B9D-33E2-4C12-9964-E82FB9E3F026}.Release|x86.Build.0 = Release|x86
+		{BB0AC26D-ACB3-41F0-99C8-66F0E3FA9B8D}.Debug|x86.ActiveCfg = Debug|x86
+		{BB0AC26D-ACB3-41F0-99C8-66F0E3FA9B8D}.Debug|x86.Build.0 = Debug|x86
+		{BB0AC26D-ACB3-41F0-99C8-66F0E3FA9B8D}.Release|x86.ActiveCfg = Release|x86
+		{BB0AC26D-ACB3-41F0-99C8-66F0E3FA9B8D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
