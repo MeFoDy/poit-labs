@@ -1,0 +1,9 @@
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.MSSvIR.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

@@ -1,0 +1,48 @@
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MSSvIR.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.Properties.Resources.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MSSvIR 1.exe
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\MSSvIR 1.pdb
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.exe
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.pdb
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MayersForm.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.ChepinForm.resources
+D:\___000\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.SpenForm.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.exe
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.pdb
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\bin\Debug\MSSvIR 1.exe
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\bin\Debug\MSSvIR 1.pdb
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.ChepinForm.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MayersForm.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.SpenForm.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MSSvIR.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.Properties.Resources.resources
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\___000\MSSvIR Lab1\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.exe
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.pdb
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\bin\Debug\MSSvIR 1.exe
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\bin\Debug\MSSvIR 1.pdb
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.ChepinForm.resources
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MayersForm.resources
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.SpenForm.resources
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MSSvIR.resources
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.Properties.Resources.resources
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\downloads\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.exe
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR 1.pdb
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\bin\Debug\MSSvIR 1.exe
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\bin\Debug\MSSvIR 1.pdb
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.ChepinForm.resources
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MayersForm.resources
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.SpenForm.resources
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.MSSvIR.resources
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\MSSvIR.Properties.Resources.resources
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\___000\MSSvIR Lab2\WindowsFormsApplication1\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog

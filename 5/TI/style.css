@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+html, body {
+	font-family:Verdana, Geneva, sans-serif;
+	background:#5AF url(bg.png);
+	font-size:12px;
+}
+
+h1, h2, h3, h4 {
+	color:#036;
+	font-variant:small-caps;
+	margin:20px 30px 0 30px;
+	background:#FFF;
+	padding:5px 25px;
+	border-radius:15px 15px 0 0;
+}
+h1, h4 {
+	text-align:center;
+	color:white;
+	background-color:#033;
+	border:2px solid #033;
+	border-radius: 25px;
+	padding:10px;
+	margin:auto;
+}
+h4 {text-align:left;}
+h2 {
+	display:inline-block;
+	margin:10px 0 -2px 0;
+	border: 2px solid #036;
+	border-bottom-color: white;
+}
+
+#set-shifr {
+	margin-left:30px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.accept {
+	background:#FFF;
+	padding:15px 25px;
+	border:2px solid #036;
+	border-radius:15px;
+}
+
+#table input[type=text] {
+	width: 40px;
+}
+
+table {
+	margin: 15px;
+}
+tr.podsvet {
+	background:url(bg.png) #EEE;
+}
+
+.popup {
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+	padding: 18px;
+}
+
+.popup a#close-popup {
+	font-size:36px;
+	position:fixed;
+	top:5px;
+	right:2%;
+	color:white;
+	text-decoration:none;
+	-o-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+
+.button {
+	display:inline-block;
+	background:#66aaff;
+	filter:progid:dximagetransform.microsoft.gradient(startColorstr=#4488dd, endColorstr=#66aaff, GradientType=0);
+	background:-moz-linear-gradient(top, #4488dd 0%, #66aaff 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #4488dd), color-stop(100%, #66aaff));
+	background:-webkit-linear-gradient(top, #4488dd 0%, #66aaff 100%);
+	background:-o-linear-gradient(top, #4488dd 0%, #66aaff 100%);
+	background:-ms-linear-gradient(top, #4488dd 0%, #66aaff 100%);
+	background:linear-gradient(to bottom, #4488dd 0%, #66aaff 100%);
+	border:none;
+	border-top:1px solid #96D1F8;
+	-webkit-border-radius:8px 8px 8px 8px;
+	-moz-border-radius:8px 8px 8px 8px;
+	-o-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;
+	box-shadow:#000000 0px 1px 0px;
+	color:white;
+	padding:5px 10px;
+	text-decoration:none;
+	font-size:13px;
+	vertical-align:middle;
+}
+.button:hover, .button:hover{
+	background:#3377cc;
+	border-top-color:#66aaff;
+	color:#CCCCCC;
+}

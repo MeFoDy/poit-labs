@@ -1,0 +1,12 @@
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\bin\Debug\CorelDrawKiller.exe
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\bin\Debug\CorelDrawKiller.pdb
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\CorelDrawKiller.CDKForm.resources
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\CorelDrawKiller.Properties.Resources.resources
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\CorelDrawKiller.exe
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\CorelDrawKiller.pdb
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\obj\x86\Debug\CorelDrawKiller.BrushThiknessForm.resources
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\bin\Debug\GlobalClasses.dll
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\bin\Debug\GlobalClasses.pdb

@@ -1,0 +1,9 @@
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\obj\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\Library.dll
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\Library.pdb
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\CorelDrawKiller.exe
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\GlobalClasses.dll
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\GlobalClasses.pdb
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\bin\Debug\CorelDrawKiller.pdb
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\obj\Debug\Library.dll
+D:\БГУИР\5 семестр\ООП\CorelDrawKiller\Library\obj\Debug\Library.pdb

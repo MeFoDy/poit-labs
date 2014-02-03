@@ -1,0 +1,5 @@
+D:\БГУИР\5 семестр\ООП\GlobalClasses\bin\Debug\GlobalClasses.dll
+D:\БГУИР\5 семестр\ООП\GlobalClasses\bin\Debug\GlobalClasses.pdb
+D:\БГУИР\5 семестр\ООП\GlobalClasses\obj\Debug\ResolveAssemblyReference.cache
+D:\БГУИР\5 семестр\ООП\GlobalClasses\obj\Debug\GlobalClasses.dll
+D:\БГУИР\5 семестр\ООП\GlobalClasses\obj\Debug\GlobalClasses.pdb
