@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ИОФС. Лабораторная работа №2</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <style>
+    .twoCols {
+      -webkit-column-count:5;  
+      -moz-column-count:5;  
+      column-count:5;  
+    }
+    </style>
+  </head>
+  <body role="document">
+    <div class="container theme-showcase" role="main">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Дубко Никита Александрович, 051004</a>
+          </div>
+        </div>
+      </nav>
+      <div class="well">
+        <h2>ИОФС. Лабораторная работа №2</h2>
+        <p>Порядок выполнения работы:</p>
+        <ol>
+          <li>Изучить теоретическую часть работы.</li>
+          <li>Реализовать алгоритм поиска текстовой информации по документу-образцу.</li>
+          <li>Оформить отчет  по лабораторной работе.</li>
+        </ol>
+        <p><strong>Исходные данные:</strong> коллекция документов из 10-12 текстов на русском и англиийском языках. Результат первой лабораторной работы: вектор ключевых слов, построенный по документу-образцу.</p>
+        <p><strong>Выходные данные:</strong> документы, найденные в результате работы поисковой машины и соответствующие запросу поиска.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Исходные данные</h3>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+                <div id="drop_zone" class="alert alert-warning">Перетащите сюда файл</div>
+                <div class="input-group">
+                  <span class="input-group-addon">OR</span>
+                  <input type="text" class="form-control" placeholder="Поисковый запрос" id="searchRequest">
+                  <span class="input-group-btn">
+                    <button type="button" class="btn btn-default" style="float:right;" id="runButton" onclick="run();">Поиск</button>
+                  </span>
+                </div>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="output-row">      
+        <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Выходные данные</h3>
+            </div>
+            <div class="panel-body" id="output">
+              Нажмите "Поиск" для выполнения поиска
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> <!-- /container -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="dist/js/jquery-1.10.2.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="dist/js/spin.min.js"></script>
+      <script src="dist/js/chart.min.js"></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
