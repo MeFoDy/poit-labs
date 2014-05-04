@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ИОФС. Лабораторная работа №3</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <style>
+    .twoCols {
+      -webkit-column-count:5;  
+      -moz-column-count:5;  
+      column-count:5;  
+    }
+    </style>
+  </head>
+  <body role="document">
+    <div class="container theme-showcase" role="main">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Дубко Никита Александрович, 051004</a>
+          </div>
+        </div>
+      </nav>
+      <div class="well">
+        <h2>ИОФС. Лабораторная работа №3</h2>
+        <p>Порядок выполнения работы:</p>
+        <ol>
+          <li>Ознакомиться с теоретической частью работы.</li>
+          <li>Реализовать алгоритмы организации информации с помощью хеширования и В-деревьев. Сравнить эффективность двух способов.</li>
+          <li>Оформить отчет по лабораторной работе.</li>
+        </ol>
+        <p><strong>Исходные данные:</strong> файл с данными, в котором требуется выполнить поиск, вставку и удаление записей на базе хеширования и В-деревьев.</p>
+        <p><strong>Выходные данные:</strong> результаты выполнения заданных операций, а также сравнение временных характеристик выполненных операций.</p>
+      </div>
+      <div class="row" id="output-row">      
+        <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Выходные данные</h3>
+            </div>
+            <div class="panel-body" id="output">
+              <table class="table table-striped" style="width:50%; float:right;">
+                <thead>
+                  <th>#</th>
+                  <th>Поиск</th>
+                  <th>Вставка</th>
+                  <th>Удаление</th>
+                </thead>
+                <tr>
+                  <td>Без организации структуры</td>
+                  <td class="item" id="bos-search"></td>
+                  <td class="item" id="bos-insert"></td>
+                  <td class="item" id="bos-delete"></td>
+                </tr>
+                <tr>
+                  <td>Хешированные данные</td>
+                  <td class="item" id="hash-search"></td>
+                  <td class="item" id="hash-insert"></td>
+                  <td class="item" id="hash-delete"></td>
+                </tr>
+                <tr>
+                  <td>B-деревья</td>
+                  <td class="item" id="b-search"></td>
+                  <td class="item" id="b-insert"></td>
+                  <td class="item" id="b-delete"></td>
+                </tr>
+              </table>
+
+
+
+              Нажмите "Тест" для расчета<br>
+              <button type="button" class="btn btn-default" onclick="run();">Тест</button>
+              <br>
+              <small>Значения в ячейках таблицы даны в милисекундах, все операции выполняются 10.000 раз для случайно выбранных чисел. Исследуемая выборка генерируется автоматически в начале тестирования из 1000 записей.</small>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> <!-- /container -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="dist/js/jquery-1.10.2.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="dist/js/spin.min.js"></script>
+      <script src="dist/js/chart.min.js"></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
