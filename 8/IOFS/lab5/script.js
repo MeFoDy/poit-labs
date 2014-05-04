@@ -25,9 +25,9 @@ function loadSpinner() {
 
 function run() {
 	var spinner = loadSpinner();
-	$.get( "script.php", { string: $('#source-text').val() }, function( data ) {
+	$.get( "script.php", { words: $('#source-text').val() }, function( data ) {
 		
-		$('#output').html(data);
+		$('#output').append(data);
 
 		spinner.stop();
 		$('#spinner').remove();
