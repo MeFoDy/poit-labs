@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ИОФС. Лабораторная работа №7</title>
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <style>
+    .twoCols {
+      -webkit-column-count:5;  
+      -moz-column-count:5;  
+      column-count:5;  
+    }
+    </style>
+  </head>
+  <body role="document">
+    <div class="container theme-showcase" role="main">
+      <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Дубко Никита Александрович, 051004</a>
+          </div>
+        </div>
+      </nav>
+      <div class="well">
+        <h2>ИОФС. Лабораторная работа №7</h2>
+        <p>Порядок выполнения работы:</p>
+        <ol>
+          <li>Ознакомиться с теоретической частью работы.</li>
+          <li>Реализовать алгоритм автоматического синтеза реферата.</li>
+          <li>Оформить отчет по лабораторной работе.</li>
+        </ol>
+        <p><strong>Исходные данные:</strong> текстовый документ и величина реферата, указанная в процентах относительно исходного текста.</p>
+        <p><strong>Выходные данные:</strong> автоматически построенный реферат.</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Исходные данные</h3>
+            </div>
+            <div class="panel-body">
+              <form role="form">
+                <textarea class="form-control" rows="5" id="source-text" name="source"></textarea>
+                <p><button type="button" class="btn btn-default" onclick="run();">Тест</button></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="output-row">      
+        <div class="col-sm-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Выходные данные</h3>
+            </div>
+            <div class="panel-body" id="output">
+              Нажмите "Тест" для расчета
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> <!-- /container -->
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="dist/js/jquery-1.10.2.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+      <script src="dist/js/spin.min.js"></script>
+      <script src="dist/js/chart.min.js"></script>
+      <script src="script.js"></script>
+    </body>
+  </html>
