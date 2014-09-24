@@ -41,6 +41,6 @@
 * [ТРПО](https://github.com/MeFoDy/poit-labs/tree/master/8/TRPO) (Фадеева Е. Е.)
 
 9 семестр
-_________
+---------
 * [МиСОИ](https://github.com/MeFoDy/poit-labs/tree/master/9/MiSOI) (Яночкин А. Л.)
 * [ПОЦП](https://github.com/MeFoDy/poit-labs/tree/master/9/POCP) (Базылев Е. Н.)
