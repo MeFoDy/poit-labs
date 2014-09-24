@@ -1,0 +1,11 @@
+162
+~E 1 "./src/and4.vhd" 28 and4
+~A 1 "./src/and4.vhd" 37 and4
+~E 1 "./src/mult.vhd" 28 mult
+~A 1 "./src/mult.vhd" 38 mult
+~E 1 "./src/mux.vhd" 24 mux
+~A 1 "./src/mux.vhd" 31 beh
+~E 1 "./compile/mux4.vhd" 25 mux4
+~A 1 "./compile/mux4.vhd" 37 mux4
+~E 1 "./compile/q1.vhd" 25 q
+~A 1 "./compile/q1.vhd" 34 q
