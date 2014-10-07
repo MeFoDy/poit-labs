@@ -1,0 +1,10 @@
+[Files List]
+C:\Aldec\Active-HDL 9.1\Vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL 9.1\Vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL 9.1\VLIB\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL 9.1\VLIB\ieee/src/std_logic_1164-body.vhdl=S
+c:\My_Designs\lab2\lab2/src/or2.vhd=S
+c:\My_Designs\lab2\lab2/src/and2.vhd=S
+c:\My_Designs\lab2\lab2/src/inv.vhd=S
+c:\My_Designs\lab2\lab2/src/task311.vhd=S
+c:\My_Designs\lab2\lab2/src/TestBench/task311_TB.vhd=S

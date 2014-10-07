@@ -1,0 +1,115 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=lab2
+
+[Library]
+lab2=.\lab2.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+lab2=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=task31
+WAVEFORMS=
+DEFWAVE=0
+ADD_HIERARCHY_SIGNALS=0
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=task31|behavioral|0 task311|behavioral|0 task311_tb|testbench_for_task311|1 task31_tb|testbench_for_task31|1  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/mux.vhd=-1
+/and2.vhd=-1
+/or2.vhd=-1
+/inv.vhd=-1
+/mux4.vhd=-1
+/summ1.vhd=-1
+/xor2.vhd=-1
+/summ2.vhd=-1
+/task31.vhd=-1
+/task32.vhd=-1
+/task311.vhd=-1
+/and3.vhd=-1
+/or3.vhd=-1
+/summ2.asdb=-1
+/summ2.awc=-1
+/task.asdb=-1
+/task.awc=-1
+TestBench/summ2_TB.vhd=-1
+TestBench/summ2_TB_runtest.do=-1
+TestBench/task31_TB.vhd=-1
+TestBench/task31_TB_runtest.do=-1
+
+[Files.Data]
+.\src\mux.vhd=VHDL Source Code
+.\src\and2.vhd=VHDL Source Code
+.\src\or2.vhd=VHDL Source Code
+.\src\inv.vhd=VHDL Source Code
+.\src\mux4.vhd=VHDL Source Code
+.\src\summ1.vhd=VHDL Source Code
+.\src\xor2.vhd=VHDL Source Code
+.\src\summ2.vhd=VHDL Source Code
+.\src\task31.vhd=VHDL Source Code
+.\src\task32.vhd=VHDL Source Code
+.\src\task311.vhd=VHDL Source Code
+.\src\and3.vhd=VHDL Source Code
+.\src\or3.vhd=VHDL Source Code
+.\src\summ2.asdb=Accelerated Waveform File
+.\src\summ2.awc=Accelerated Waveform Configuration
+.\src\task.asdb=Accelerated Waveform File
+.\src\task.awc=Accelerated Waveform Configuration
+.\src\TestBench\summ2_TB.vhd=VHDL Test Bench
+.\src\TestBench\summ2_TB_runtest.do=Macro
+.\src\TestBench\task31_TB.vhd=VHDL Test Bench
+.\src\TestBench\task31_TB_runtest.do=Macro

@@ -1,0 +1,15 @@
+.\src\mux.vhd
+.\src\and2.vhd
+.\src\or2.vhd
+.\src\inv.vhd
+.\src\mux4.vhd
+.\src\summ1.vhd
+.\src\xor2.vhd
+.\src\summ2.vhd
+.\src\task31.vhd
+.\src\task32.vhd
+.\src\task311.vhd
+.\src\and3.vhd
+.\src\or3.vhd
+.\src\TestBench\summ2_TB.vhd
+.\src\TestBench\task311_TB.vhd

@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\lab2\library.cfg"  -j "c:\My_Designs\lab2\lab2\projlib.cfg"  -d "c:\My_Designs\lab2\lab2\compile"   -work lab2  -O3 -e 100 -2002 "c:\My_Designs\lab2\lab2\src\TestBench\task311_TB.vhd"
