@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "encrypt", "Lab1\Lab1.vcxproj", "{795FE1A1-69A3-42A2-AEDA-3458E29C9439}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "decrypt", "decrypt\decrypt.vcxproj", "{018307EC-A9E1-4D80-9FD0-E94A1A00E000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{795FE1A1-69A3-42A2-AEDA-3458E29C9439}.Debug|Win32.ActiveCfg = Debug|Win32
+		{795FE1A1-69A3-42A2-AEDA-3458E29C9439}.Debug|Win32.Build.0 = Debug|Win32
+		{795FE1A1-69A3-42A2-AEDA-3458E29C9439}.Release|Win32.ActiveCfg = Release|Win32
+		{795FE1A1-69A3-42A2-AEDA-3458E29C9439}.Release|Win32.Build.0 = Release|Win32
+		{018307EC-A9E1-4D80-9FD0-E94A1A00E000}.Debug|Win32.ActiveCfg = Debug|Win32
+		{018307EC-A9E1-4D80-9FD0-E94A1A00E000}.Debug|Win32.Build.0 = Debug|Win32
+		{018307EC-A9E1-4D80-9FD0-E94A1A00E000}.Release|Win32.ActiveCfg = Release|Win32
+		{018307EC-A9E1-4D80-9FD0-E94A1A00E000}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
