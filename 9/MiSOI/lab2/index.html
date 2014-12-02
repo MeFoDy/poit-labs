@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>МиСОИ. Лабораторная работа №2</title>
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap theme -->
+  <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
+  <style>
+  .twoCols {
+    -webkit-column-count:5;  
+    -moz-column-count:5;  
+    column-count:5;  
+  }
+  #methods {
+    display: none;
+  }
+  </style>
+</head>
+<body role="document">
+  <div class="container theme-showcase" role="main">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Дубко Никита Александрович, 051004</a>
+        </div>
+      </div>
+    </nav>
+    <div class="well">
+      <h2>МиСОИ. Лабораторная работа №2</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Загрузка изображения</h3>
+          </div>
+          <div class="panel-body">
+            <form action="upload.php" method="post" enctype="multipart/form-data" id="MyUploadForm">
+              <input name="image_file" id="imageInput" type="file" />
+              <input type="submit"  id="submit-btn" value="Upload" class="btn btn-default" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Исходные данные</h3>
+          </div>
+          <div class="panel-body">
+            <div id="output">
+              <img src="images/img/ajax-loader.gif" id="loading-img" style="display:none;" alt="Please Wait"/>
+            </div>
+            <div id="methods">
+              <br>
+              <div>Выберите метод обработки:
+                <select name="method" id="method">
+                  <option value="klaster" selected>Кластеризация</option>
+                  <option value="histogram">Гистограмма</option>
+                  <option value="gammaCorrect">Гамма-коррекция</option>
+                  <option value="lineContrastCorrect">Линейная коррекция</option>
+                  <option value="logCorrect">Логарифмическая коррекция</option>
+                  <option value="hfFilter">Высокочастотный фильтр</option>
+                  <option value="lfFilter">Низкочастотный фильтр</option>
+                  <option value="robertsFilter">Оператор Робертса</option>
+                </select>
+              </div>
+              <br>
+              <div class="params" id="histogram">
+                Настраиваемых параметров нет
+              </div>
+
+              <div class="params" id="klaster">
+                k: <input type="number" id="param-cKlaster" min="2" max="255" step="1" value="2">
+                grey: <input type="number" id="param-greyKlaster" min="2" max="255" step="1" value="165">
+              </div>
+
+              <div class="params" id="gammaCorrect">
+                c: <input type="number" id="param-c" min="0" max="20" step="0.1" value="1.2">
+                &gamma;: <input type="number" id="param-q" min="-2" max="3" step="0.05" value="0.8">
+              </div>
+
+              <div class="params" id="logCorrect">
+                c: <input type="number" id="param-cLog" min="0" max="255" step="1" value="30">
+              </div>
+
+              <div class="params" id="lineContrastCorrect">
+                G<sub>min</sub>: <input type="number" id="param-gmin" min="0" max="255" step="1" value="10">
+                G<sub>max</sub>: <input type="number" id="param-gmax" min="0" max="255" step="1" value="240">
+              </div>
+
+              <div class="params" id="hfFilter">
+                Настраиваемых параметров нет
+              </div>
+
+              <div class="params" id="lfFilter">
+                Настраиваемых параметров нет
+              </div>
+              
+              <div class="params" id="robertsFilter">
+                Настраиваемых параметров нет
+              </div>
+
+              <br>
+              <button class="btn btn-primary" id="justDoIt">Обработать</button>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Выходные данные</h3>
+          </div>
+          <div class="panel-body">
+            <center id="fksistagram"></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="dist/js/jquery-1.10.2.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/spin.min.js"></script>
+  <script src="dist/js/chart.min.js"></script>
+  <script src="jquery.form.js"></script>
+  <script src="script.js"></script>
+
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+  </div>
+</body>
+</html>
