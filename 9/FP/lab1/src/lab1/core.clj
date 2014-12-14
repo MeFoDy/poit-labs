@@ -1,5 +1,6 @@
 (ns lab1.core
-  (:gen-class))
+  (:gen-class)
+  (use 'clojure.java.io))
 
 ;=============== CONSTANTS ==========
 (def eBig 0.5)
@@ -97,7 +98,7 @@
 (defn -main
   "Main Function"
   [& args]
-  (if (>= (count args) 2)
+  (if (= (count args) 2)
     (let [points (read-from-file (first args))]
       (println (clasterize (if (= (last args) "h") hamming-distance euclidian-distance) points)))
     (println "Not enough parameters.\n\n",
