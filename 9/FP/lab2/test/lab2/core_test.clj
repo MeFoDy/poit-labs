@@ -14,7 +14,7 @@
     "Parsing HTML"
     (let [content (html/html-snippet (slurp "test.html"))
           links (get-urls content)]
-      (is (= (count links) 4)))))
+      (is (= (count links) 7)))))
 
 (deftest a-test
   (testing "FIXME, I fail."
