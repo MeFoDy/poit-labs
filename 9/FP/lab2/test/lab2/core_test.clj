@@ -17,5 +17,17 @@
       (is (= (count links) 7)))))
 
 (deftest a-test
-  (testing "FIXME, I fail."
+  (testing
+    "FIXME, I fail."
     (is (= 1 1))))
+
+(deftest redirect-detection-test
+  (testing
+    "Redirect"
+    (is (= true (has-redirect {:status 300})))
+    (is (= false (has-redirect {:status 310})))))
+
+(deftest get-links-from-file-test
+  (testing
+    "Get data from file"
+    (is (= 3 (count (get-links-from-file "links.txt"))))))
