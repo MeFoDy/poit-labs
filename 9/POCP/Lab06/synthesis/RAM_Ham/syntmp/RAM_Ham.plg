@@ -1,0 +1,30 @@
+@P:  Worst Slack : NA
+@P:  RAM_Ham|CLK - Estimated Frequency : NA
+@P:  RAM_Ham|CLK - Requested Frequency : 1.0 MHz
+@P:  RAM_Ham|CLK - Estimated Period : NA
+@P:  RAM_Ham|CLK - Requested Period : 1000.000
+@P:  RAM_Ham|CLK - Slack : NA
+@P:  RAM_Ham|WR - Estimated Frequency : NA
+@P:  RAM_Ham|WR - Requested Frequency : 1.0 MHz
+@P:  RAM_Ham|WR - Estimated Period : NA
+@P:  RAM_Ham|WR - Requested Period : 1000.000
+@P:  RAM_Ham|WR - Slack : NA
+@P:  Worst Slack(min analysis) : NA
+@P:  RAM_Ham|CLK - Estimated Frequency(min analysis) : NA
+@P:  RAM_Ham|CLK - Requested Frequency(min analysis) : 1.0 MHz
+@P:  RAM_Ham|CLK - Estimated Period(min analysis) : NA
+@P:  RAM_Ham|CLK - Requested Period(min analysis) : 1000.000
+@P:  RAM_Ham|CLK - Slack(min analysis) : NA
+@P:  RAM_Ham|WR - Estimated Frequency(min analysis) : NA
+@P:  RAM_Ham|WR - Requested Frequency(min analysis) : 1.0 MHz
+@P:  RAM_Ham|WR - Estimated Period(min analysis) : NA
+@P:  RAM_Ham|WR - Requested Period(min analysis) : 1000.000
+@P:  RAM_Ham|WR - Slack(min analysis) : NA
+@P: RAM_Ham Part : xc2s15cs144-6
+@P: RAM_Ham I/O primitives : 9
+@P: RAM_Ham I/O Register bits : 0
+@P: RAM_Ham Register bits (Non I/O) : 0 (0%)
+@P: RAM_Ham I/O Latch bits : 1
+@P: RAM_Ham Single Port Rams (RAM16X1S) : 7
+@P: RAM_Ham Total Luts : 14 (3%)
+@P:  CPU Time : 0h:00m:02s

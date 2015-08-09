@@ -1,0 +1,18 @@
+@P:  Worst Slack : NA
+@P:  RegFile|WE - Estimated Frequency : NA
+@P:  RegFile|WE - Requested Frequency : 1.0 MHz
+@P:  RegFile|WE - Estimated Period : NA
+@P:  RegFile|WE - Requested Period : 1000.000
+@P:  RegFile|WE - Slack : NA
+@P:  Worst Slack(min analysis) : NA
+@P:  RegFile|WE - Estimated Frequency(min analysis) : NA
+@P:  RegFile|WE - Requested Frequency(min analysis) : 1.0 MHz
+@P:  RegFile|WE - Estimated Period(min analysis) : NA
+@P:  RegFile|WE - Requested Period(min analysis) : 1000.000
+@P:  RegFile|WE - Slack(min analysis) : NA
+@P: RegFile Part : xc2s15cs144-6
+@P: RegFile I/O primitives : 14
+@P: RegFile I/O Register bits : 4
+@P: RegFile Register bits (Non I/O) : 12 (3%)
+@P: RegFile Total Luts : 8 (2%)
+@P:  CPU Time : 0h:00m:01s

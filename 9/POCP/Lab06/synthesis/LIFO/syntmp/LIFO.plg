@@ -1,0 +1,29 @@
+@P:  Worst Slack : -1.798
+@P:  LIFO|CLK - Estimated Frequency : 91.7 MHz
+@P:  LIFO|CLK - Requested Frequency : 107.9 MHz
+@P:  LIFO|CLK - Estimated Period : 10.907
+@P:  LIFO|CLK - Requested Period : 9.271
+@P:  LIFO|CLK - Slack : -1.636
+@P:  System - Estimated Frequency : 83.4 MHz
+@P:  System - Requested Frequency : 98.1 MHz
+@P:  System - Estimated Period : 11.987
+@P:  System - Requested Period : 10.189
+@P:  System - Slack : -1.798
+@P:  Worst Slack(min analysis) : 1.386
+@P:  LIFO|CLK - Estimated Frequency(min analysis) : 91.7 MHz
+@P:  LIFO|CLK - Requested Frequency(min analysis) : 107.9 MHz
+@P:  LIFO|CLK - Estimated Period(min analysis) : 10.907
+@P:  LIFO|CLK - Requested Period(min analysis) : 9.271
+@P:  LIFO|CLK - Slack(min analysis) : -1.636
+@P:  System - Estimated Frequency(min analysis) : 83.4 MHz
+@P:  System - Requested Frequency(min analysis) : 98.1 MHz
+@P:  System - Estimated Period(min analysis) : 11.987
+@P:  System - Requested Period(min analysis) : 10.189
+@P:  System - Slack(min analysis) : -1.798
+@P: LIFO Part : xc2s15cs144-6
+@P: LIFO I/O primitives : 6
+@P: LIFO I/O Register bits : 0
+@P: LIFO Register bits (Non I/O) : 32 (8%)
+@P: LIFO I/O Latch bits : 2
+@P: LIFO Total Luts : 59 (15%)
+@P:  CPU Time : 0h:00m:01s

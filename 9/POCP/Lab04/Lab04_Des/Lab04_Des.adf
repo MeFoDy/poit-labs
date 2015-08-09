@@ -1,0 +1,108 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Lab04_Des
+
+[Library]
+Lab04_Des=.\Lab04_Des.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=MV_XST145_SYNTH_IMPL
+RUN_MODE_SYNTH=1
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=Xilinx14x ARTIX7
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=1
+
+[LocalVhdlSets]
+CompileWithDebug=1
+
+[$LibMap$]
+Lab04_Des=.
+Active_lib=ARTIX7
+xilinxun=ARTIX7
+UnlinkedDesignLibrary=ARTIX7
+DESIGNS=ARTIX7
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+SortInfo=u
+
+[Groups]
+Task1=1
+Task2=1
+Task3=1
+Task4=1
+Task5=1
+Task6=1
+Testbench=1
+Task7=1
+
+[Files]
+/DLatch.vhd=-1
+/And2.vhd=-1
+/Inv.vhd=-1
+/Nor2.vhd=-1
+/DELatch.vhd=-1
+/DESync.vhd=-1
+/DFF_Enable_Async.vhd=-1
+Task1/AsyncRegister.vhd=-1
+Task2/SyncRegister.vhd=-1
+Task3/ShiftRegister.vhd=-1
+Task4/JC.vhd=-1
+Task5/LFSR_Out.vhd=-1
+Task6/LFSR_In.vhd=-1
+Testbench/LFSR_In_t.vhd=-1
+Testbench/JS_test.vhd=-1
+Task7/Signature.vhd=-1
+
+[Files.Data]
+.\src\DLatch.vhd=VHDL Source Code
+.\src\And2.vhd=VHDL Source Code
+.\src\Inv.vhd=VHDL Source Code
+.\src\Nor2.vhd=VHDL Source Code
+.\src\DELatch.vhd=VHDL Source Code
+.\src\DESync.vhd=VHDL Source Code
+.\src\DFF_Enable_Async.vhd=VHDL Source Code
+.\src\Task1\AsyncRegister.vhd=VHDL Source Code
+.\src\Task2\SyncRegister.vhd=VHDL Source Code
+.\src\Task3\ShiftRegister.vhd=VHDL Source Code
+.\src\Task4\JC.vhd=VHDL Source Code
+.\src\Task5\LFSR_Out.vhd=VHDL Source Code
+.\src\Task6\LFSR_In.vhd=VHDL Source Code
+.\src\Testbench\LFSR_In_t.vhd=VHDL Source Code
+.\src\Testbench\JS_test.vhd=VHDL Source Code
+.\src\Task7\Signature.vhd=VHDL Source Code
+

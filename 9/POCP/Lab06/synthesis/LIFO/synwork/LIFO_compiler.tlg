@@ -1,0 +1,18 @@
+@N: CD630 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":6:7:6:10|Synthesizing lab06.lifo.beh 
+@W: CG296 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":59:6:59:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":63:22:63:23|Referenced variable db is not in sensitivity list
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":61:5:61:6|Referenced variable wr is not in sensitivity list
+@W: CG296 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":68:6:68:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:5:70:6|Referenced variable wr is not in sensitivity list
+Post processing for lab06.lifo.beh
+@W: CL169 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:2:70:3|Pruning register DB_cl_5(1)  
+@W: CL169 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:2:70:3|Pruning register DB_cl_5(0)  
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_3(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_2(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_1(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_0(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB_e; possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB(0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB_e; possible missing assignment in an if or case statement.
+@N: CL177 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Sharing sequential element DB_e.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB(1); possible missing assignment in an if or case statement.

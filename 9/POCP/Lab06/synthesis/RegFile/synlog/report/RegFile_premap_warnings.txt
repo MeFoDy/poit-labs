@@ -1,0 +1,1 @@
+@W: MT529 :"e:\embedded\projects\pocp\lab06\src\regn.vhd":22:2:22:3|Found inferred clock RegFile|WE which controls 16 sequential elements including Regi\.3\.Regi.reg[0:3]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

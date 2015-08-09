@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworks.Hopfield.Core", "NeuralNetworks.Hopfield.Core\NeuralNetworks.Hopfield.Core.csproj", "{0C8BD817-36BA-4D41-960E-60A085A5C8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryRandimizer.Core", "BinaryRandimizer.Core\BinaryRandimizer.Core.csproj", "{42824C10-DB8F-4A1B-9CDB-FA777A03D394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryRandomizer.Runner", "BinaryRandomizer.Runner\BinaryRandomizer.Runner.csproj", "{939618C1-E9A8-43D8-B1E0-AFB191F26510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeuralNetworks.Math", "NeuralNetworks.Math\NeuralNetworks.Math.csproj", "{C9F4085A-954B-4B77-A403-9765E1EABD88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hopfield.Runner", "Hopfield.Runner\Hopfield.Runner.csproj", "{7E84C6C9-BC6F-48B3-B2A2-AAC0B75BFF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hopfield.WinForms", "Hopfield.WinForms\Hopfield.WinForms.csproj", "{0C29728E-6187-4A8A-98E1-5B498F54EF34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C8BD817-36BA-4D41-960E-60A085A5C8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8BD817-36BA-4D41-960E-60A085A5C8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8BD817-36BA-4D41-960E-60A085A5C8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8BD817-36BA-4D41-960E-60A085A5C8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42824C10-DB8F-4A1B-9CDB-FA777A03D394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42824C10-DB8F-4A1B-9CDB-FA777A03D394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42824C10-DB8F-4A1B-9CDB-FA777A03D394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42824C10-DB8F-4A1B-9CDB-FA777A03D394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{939618C1-E9A8-43D8-B1E0-AFB191F26510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939618C1-E9A8-43D8-B1E0-AFB191F26510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939618C1-E9A8-43D8-B1E0-AFB191F26510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939618C1-E9A8-43D8-B1E0-AFB191F26510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F4085A-954B-4B77-A403-9765E1EABD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F4085A-954B-4B77-A403-9765E1EABD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F4085A-954B-4B77-A403-9765E1EABD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F4085A-954B-4B77-A403-9765E1EABD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E84C6C9-BC6F-48B3-B2A2-AAC0B75BFF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E84C6C9-BC6F-48B3-B2A2-AAC0B75BFF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E84C6C9-BC6F-48B3-B2A2-AAC0B75BFF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E84C6C9-BC6F-48B3-B2A2-AAC0B75BFF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C29728E-6187-4A8A-98E1-5B498F54EF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C29728E-6187-4A8A-98E1-5B498F54EF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C29728E-6187-4A8A-98E1-5B498F54EF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C29728E-6187-4A8A-98E1-5B498F54EF34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

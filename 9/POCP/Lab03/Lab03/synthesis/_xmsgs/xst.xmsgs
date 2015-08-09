@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Xst" num="2792" delta="old" >Top module &lt;<arg fmt="%s" index="1">D_Latch</arg>&gt; specified via the -top switch was found in multiple libraries.
+</msg>
+
+<msg type="error" file="Xst" num="2758" delta="old" >Candidates are : <arg fmt="%s" index="1">&lt;lab03&gt;, &lt;lab03&gt;</arg>.
+</msg>
+
+<msg type="error" file="Xst" num="2469" delta="old" >Please specify the correct library via the -work_lib switch.
+</msg>
+
+</messages>
+

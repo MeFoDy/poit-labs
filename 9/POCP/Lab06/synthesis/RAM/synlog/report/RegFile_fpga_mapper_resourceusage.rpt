@@ -1,0 +1,32 @@
+---------------------------------------
+Resource Usage Report for RAM 
+
+Mapping to part: xc2s15cs144-6
+Cell usage:
+GND             1 use
+RAM16X1S        2 uses
+
+I/O ports: 6
+I/O primitives: 6
+IBUF           3 uses
+IBUFG          1 use
+IOBUF          2 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+
+RAM/ROM usage summary
+Single Port Rams (RAM16X1S): 2
+
+
+Global Clock Buffers: 1 of 4 (25%)
+
+
+Mapping Summary:
+Total  LUTs: 2 (0%)
+
+Distribution of All Consumed LUTs = RAM 
+Distribution of All Consumed Luts 2 = 2 
+

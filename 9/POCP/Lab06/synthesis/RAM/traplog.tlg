@@ -1,0 +1,9 @@
+@N: CD630 :".\gentmp1637a05652":4:7:4:9|Synthesizing work.top.gen 
+@N: CD630 :"syng0a05652":16:7:16:12|Synthesizing work.ram_rw.select_ram 
+@N: CD630 :"E:\Embedded\Synplify\fpga_H201303\lib\xilinx\unisim.vhd":23129:10:23129:17|Synthesizing unisim.ram16x1s.syn_black_box 
+Post processing for unisim.ram16x1s.syn_black_box
+@W: CD638 :"syng0a05652":1091:7:1091:12|Signal out_en is undriven 
+@W: CD638 :"syng0a05652":1093:7:1093:12|Signal wrt_en is undriven 
+Post processing for work.ram_rw.select_ram
+Post processing for work.top.gen
+@W: CL159 :"syng0a05652":32:8:32:11|Input OCLK is unused

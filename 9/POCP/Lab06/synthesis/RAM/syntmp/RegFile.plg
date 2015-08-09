@@ -1,0 +1,19 @@
+@P:  Worst Slack : NA
+@P:  RAM|CLK - Estimated Frequency : NA
+@P:  RAM|CLK - Requested Frequency : 1.0 MHz
+@P:  RAM|CLK - Estimated Period : NA
+@P:  RAM|CLK - Requested Period : 1000.000
+@P:  RAM|CLK - Slack : NA
+@P:  Worst Slack(min analysis) : NA
+@P:  RAM|CLK - Estimated Frequency(min analysis) : NA
+@P:  RAM|CLK - Requested Frequency(min analysis) : 1.0 MHz
+@P:  RAM|CLK - Estimated Period(min analysis) : NA
+@P:  RAM|CLK - Requested Period(min analysis) : 1000.000
+@P:  RAM|CLK - Slack(min analysis) : NA
+@P: RAM Part : xc2s15cs144-6
+@P: RAM I/O primitives : 6
+@P: RAM I/O Register bits : 0
+@P: RAM Register bits (Non I/O) : 0 (0%)
+@P: RAM Single Port Rams (RAM16X1S) : 2
+@P: RAM Total Luts : 2 (0%)
+@P:  CPU Time : 0h:00m:02s

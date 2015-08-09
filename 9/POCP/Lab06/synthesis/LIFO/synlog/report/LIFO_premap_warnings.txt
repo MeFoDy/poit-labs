@@ -1,0 +1,7 @@
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":71:7:71:34|Net RDP\.un24_wr appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_4 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_5 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_7 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT531 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Found signal identified as System clock which controls 11 sequential elements including sram_3[1:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":36:2:36:3|Found inferred clock LIFO|CLK which controls 32 sequential elements including head[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

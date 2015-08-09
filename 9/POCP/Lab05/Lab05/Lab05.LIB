@@ -1,0 +1,313 @@
+timestamp=1418389718955
+
+[task1]
+A/beh=A/Beh 23|.\src\Task1.asf|10000|1*257130
+BinI32/beh=3*96256
+I=0*92055
+I/beh=I/Beh 0*93184
+M=11|0|v98|1418389386993|./compile/Task1.vhd|0*91655*0x4ace2bb9839550c7a6bc4ca113b090116cbd6218|0*91980*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418389386995|./compile/Task1.vhd|0*92288*0x782faa162159c243558f8d774c5babf0e900cd2c|0*93102*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/Task1.vhd|26
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_cfg_tb1]
+Configures=Task1_ent_tb1.Task1_arch_tb1
+E=1*269447
+I=0*103249
+M=2|0|v98|1418389387159|./src/Task1_TB/Task1_tb1.vhd|0*102899*0xf5510f3a388f3122bbaa783dbc5f0c91265a9d1f|0*103141*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb1.vhd|172
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_cfg_tb2]
+Configures=Task1_ent_tb2.Task1_arch_tb2
+E=1*274975
+I=0*109429
+M=2|0|v98|1418389387213|./src/Task1_TB/Task1_tb2.vhd|0*109077*0x993ee67c3cdc316a8eefbaefbe860f2eedc02730|0*109321*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb2.vhd|300
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_cfg_tb3]
+Configures=Task1_ent_tb3.Task1_arch_tb3
+E=1*280469
+I=0*115066
+M=2|0|v98|1418389387249|./src/Task1_TB/Task1_tb3.vhd|0*114714*0x0f02c846a4e5fa51de6299e353048d0e352fb048|0*114958*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb3.vhd|261
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_ent_tb1]
+A/task1_arch_tb1=A/Task1_arch_tb1 21|./src/Task1_TB/Task1_tb1.vhd|34|1*264511
+BinI32/task1_arch_tb1=3*99726
+I=0*99720
+I/task1_arch_tb1=I/Task1_arch_tb1 0*102404
+M=11|0|v98|1418389387153|./src/Task1_TB/Task1_tb1.vhd|0*99323*0xb3f0bceb8f4333c13c661b85ff945d010d78bf84|0*99628*0xab32bc1a2daf049573e14469f634e0e6
+M/task1_arch_tb1=M/Task1_arch_tb1 21|0|v98|1418389387155|./src/Task1_TB/Task1_tb1.vhd|0*100082*0x25d5e6f1797a1cf4b9f61eca754f3cf366d48bcf|0*102294*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb1.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task1_arch_tb1=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_ent_tb2]
+A/task1_arch_tb2=A/Task1_arch_tb2 21|./src/Task1_TB/Task1_tb2.vhd|34|1*270020
+BinI32/task1_arch_tb2=3*101220
+I=0*104145
+I/task1_arch_tb2=I/Task1_arch_tb2 0*108582
+M=11|0|v98|1418389387203|./src/Task1_TB/Task1_tb2.vhd|0*103748*0x86fabcfeac44194d0ca0a4b5d533056484fdd3cf|0*104053*0xab32bc1a2daf049573e14469f634e0e6
+M/task1_arch_tb2=M/Task1_arch_tb2 21|0|v98|1418389387205|./src/Task1_TB/Task1_tb2.vhd|0*104507*0x31076ae775991e5a29d124df9810b7bb37b8f09e|0*108472*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb2.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task1_arch_tb2=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task1_ent_tb3]
+A/task1_arch_tb3=A/Task1_arch_tb3 21|./src/Task1_TB/Task1_tb3.vhd|34|1*275548
+BinI32/task1_arch_tb3=3*103801
+I=0*110325
+I/task1_arch_tb3=I/Task1_arch_tb3 0*114219
+M=11|0|v98|1418389387243|./src/Task1_TB/Task1_tb3.vhd|0*109928*0x4b5960579777b36149517890064d82f9cf1f5410|0*110233*0xab32bc1a2daf049573e14469f634e0e6
+M/task1_arch_tb3=M/Task1_arch_tb3 21|0|v98|1418389387245|./src/Task1_TB/Task1_tb3.vhd|0*110687*0x465935f5526cc609c9af18104c9844478721792c|0*114109*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task1_TB/Task1_tb3.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task1_arch_tb3=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2]
+A/beh=A/Beh 23|.\src\Task2.asf|10000|1*258974
+BinI32/beh=3*97137
+I=0*94017
+I/beh=I/Beh 0*95084
+M=11|0|v98|1418389387053|./compile/Task2.vhd|0*93617*0x34d93dfd6faac49d5670c6c5241a3c17259b7a14|0*93942*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418389387055|./compile/Task2.vhd|0*94250*0x6bb4de70ea9c3c8495561ff73173e3b13514a5f4|0*95002*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/Task2.vhd|26
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_cfg_tb1]
+Configures=Task2_ent_tb1.Task2_arch_tb1
+E=1*285963
+I=0*119342
+M=2|0|v98|1418389387289|./src/Task2_TB/Task2_tb1.vhd|0*118992*0x9721a76c71ce9ff47243ba82a1e98dbeca98a41d|0*119234*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb1.vhd|161
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_cfg_tb2]
+Configures=Task2_ent_tb2.Task2_arch_tb2
+E=1*291472
+I=0*124427
+M=2|0|v98|1418389387329|./src/Task2_TB/Task2_tb2.vhd|0*124077*0x4e5839e229d9d639acbe8f786a5ba5606b0a9fa0|0*124319*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb2.vhd|220
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_cfg_tb3]
+Configures=Task2_ent_tb3.Task2_arch_tb3
+E=1*296966
+I=0*130293
+M=2|0|v98|1418389387369|./src/Task2_TB/Task2_tb3.vhd|0*129941*0x694c5b6349b83cc230b01efd0c7b8d8024348aee|0*130185*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb3.vhd|277
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_ent_tb1]
+A/task2_arch_tb1=A/Task2_arch_tb1 21|./src/Task2_TB/Task2_tb1.vhd|34|1*281042
+BinI32/task2_arch_tb1=3*106051
+I=0*115962
+I/task2_arch_tb1=I/Task2_arch_tb1 0*118497
+M=11|0|v98|1418389387283|./src/Task2_TB/Task2_tb1.vhd|0*115565*0x0d06c351356b687b0041d978b90fa0e25602327e|0*115870*0xab32bc1a2daf049573e14469f634e0e6
+M/task2_arch_tb1=M/Task2_arch_tb1 21|0|v98|1418389387285|./src/Task2_TB/Task2_tb1.vhd|0*116324*0x0d5f2736e095bc8fa112582a9f31d3328baa7e40|0*118387*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb1.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task2_arch_tb1=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_ent_tb2]
+A/task2_arch_tb2=A/Task2_arch_tb2 21|./src/Task2_TB/Task2_tb2.vhd|34|1*286536
+BinI32/task2_arch_tb2=3*107455
+I=0*120238
+I/task2_arch_tb2=I/Task2_arch_tb2 0*123582
+M=11|0|v98|1418389387323|./src/Task2_TB/Task2_tb2.vhd|0*119841*0xb6267bc691d2505a60a8ffb9123df6476f72db3c|0*120146*0xab32bc1a2daf049573e14469f634e0e6
+M/task2_arch_tb2=M/Task2_arch_tb2 21|0|v98|1418389387325|./src/Task2_TB/Task2_tb2.vhd|0*120600*0x8011e6b25c0881234ac81063f0f5f9fce4a57f39|0*123472*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb2.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task2_arch_tb2=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task2_ent_tb3]
+A/task2_arch_tb3=A/Task2_arch_tb3 21|./src/Task2_TB/Task2_tb3.vhd|34|1*292045
+BinI32/task2_arch_tb3=3*109347
+I=0*125323
+I/task2_arch_tb3=I/Task2_arch_tb3 0*129446
+M=11|0|v98|1418389387363|./src/Task2_TB/Task2_tb3.vhd|0*124926*0xf24e5c321a5215231562d86d77a3fa1727103e1a|0*125231*0xab32bc1a2daf049573e14469f634e0e6
+M/task2_arch_tb3=M/Task2_arch_tb3 21|0|v98|1418389387365|./src/Task2_TB/Task2_tb3.vhd|0*125685*0x684c46396f706446b38e14ccdb7b33dfd82e9323|0*129336*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task2_TB/Task2_tb3.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task2_arch_tb3=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3]
+A/beh=A/Beh 23|.\src\Task3.asf|10000|1*260813
+BinI32/beh=3*97986
+I=0*95917
+I/beh=I/Beh 0*97031
+M=11|0|v98|1418389387093|./compile/Task3.vhd|0*95517*0x81b48da17de2f32376ec22e552c3b584d223508c|0*95842*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418389387095|./compile/Task3.vhd|0*96150*0xef0669a213a5bde28c94902c5dd2d9f6efa620ab|0*96949*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/Task3.vhd|26
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_cfg_tb1]
+Configures=Task3_ent_tb1.Task3_arch_tb1
+E=1*302460
+I=0*134569
+M=2|0|v98|1418389387409|./src/Task3_TB/Task3_tb1.vhd|0*134219*0x6ed3a4a77df56b23ac1d53eb58271bd065428467|0*134461*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb1.vhd|161
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_cfg_tb2]
+Configures=Task3_ent_tb2.Task3_arch_tb2
+E=1*307984
+I=0*139835
+M=2|0|v98|1418389387449|./src/Task3_TB/Task3_tb2.vhd|0*139485*0xe473985b7104339c50dca3d0f57fd8e6b04cf871|0*139727*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb2.vhd|233
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_cfg_tb3]
+Configures=Task3_ent_tb3.Task3_arch_tb3
+E=1*313478
+I=0*145701
+M=2|0|v98|1418389387489|./src/Task3_TB/Task3_tb3.vhd|0*145349*0x30d24aa796609f8f2f7d61d7e08f28e84682530d|0*145593*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb3.vhd|277
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_ent_tb1]
+A/task3_arch_tb1=A/Task3_arch_tb1 21|./src/Task3_TB/Task3_tb1.vhd|34|1*297539
+BinI32/task3_arch_tb1=3*111742
+I=0*131189
+I/task3_arch_tb1=I/Task3_arch_tb1 0*133724
+M=11|0|v98|1418389387403|./src/Task3_TB/Task3_tb1.vhd|0*130792*0xfeec4bdf1930a4bf5139404ad6400e1cede28b15|0*131097*0xab32bc1a2daf049573e14469f634e0e6
+M/task3_arch_tb1=M/Task3_arch_tb1 21|0|v98|1418389387405|./src/Task3_TB/Task3_tb1.vhd|0*131551*0xbe49f890db4dbdfee73962c83986059f6d5e985b|0*133614*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb1.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task3_arch_tb1=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_ent_tb2]
+A/task3_arch_tb2=A/Task3_arch_tb2 21|./src/Task3_TB/Task3_tb2.vhd|34|1*303033
+BinI32/task3_arch_tb2=3*113142
+I=0*135465
+I/task3_arch_tb2=I/Task3_arch_tb2 0*138990
+M=11|0|v98|1418389387443|./src/Task3_TB/Task3_tb2.vhd|0*135068*0x63e9d8775479df73b25f2ff1ed3f062924dfc31e|0*135373*0xab32bc1a2daf049573e14469f634e0e6
+M/task3_arch_tb2=M/Task3_arch_tb2 21|0|v98|1418389387445|./src/Task3_TB/Task3_tb2.vhd|0*135827*0x2fcb85aad221acc401dfb0f97874abf2ba47f7b5|0*138880*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb2.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task3_arch_tb2=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task3_ent_tb3]
+A/task3_arch_tb3=A/Task3_arch_tb3 21|./src/Task3_TB/Task3_tb3.vhd|34|1*308557
+BinI32/task3_arch_tb3=3*115137
+I=0*140731
+I/task3_arch_tb3=I/Task3_arch_tb3 0*144854
+M=11|0|v98|1418389387483|./src/Task3_TB/Task3_tb3.vhd|0*140334*0xc7d258f0c6c4cb1768e683f4b81f64c9c65d04f8|0*140639*0xab32bc1a2daf049573e14469f634e0e6
+M/task3_arch_tb3=M/Task3_arch_tb3 21|0|v98|1418389387485|./src/Task3_TB/Task3_tb3.vhd|0*141093*0xef0cfe7753b3ea8ffced592fd39d3859c114b429|0*144744*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task3_TB/Task3_tb3.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task3_arch_tb3=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4]
+A/beh=A/Beh 23|.\src\Task4.asf|10000|1*332372
+BinI32/beh=3*123602
+I=0*97864
+I/beh=I/Beh 0*163923
+M=11|0|v98|1418389387123|./compile/Task4.vhd|0*97464*0x2d7e1ea10ed6b5c0c4bff9b8fce7b0af4ec3c9f6|0*97789*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418389718897|./compile/Task4.vhd|0*163019*0xa20a25020f2c9ed4c51a09a07516e9094eaebc92|0*163841*0xb33770ff1c10522f9491560174ac8e6c
+R=./compile/Task4.vhd|26
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_cfg_tb1]
+Configures=Task4_ent_tb1.Task4_arch_tb1
+E=1*318957
+I=0*149961
+M=2|0|v98|1418389387529|./src/Task4_TB/Task4_tb1.vhd|0*149611*0x6a930c716a33b1aed5298f7608544a0900ec34b0|0*149853*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb1.vhd|160
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_cfg_tb2]
+Configures=Task4_ent_tb2.Task4_arch_tb2
+E=1*324466
+I=0*155662
+M=2|0|v98|1418389387569|./src/Task4_TB/Task4_tb2.vhd|0*155310*0x3948ac57179cf456aa5b443b386d61c665424ed3|0*155554*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb2.vhd|265
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_cfg_tb3]
+Configures=Task4_ent_tb3.Task4_arch_tb3
+E=1*329945
+I=0*161464
+M=2|0|v98|1418389387609|./src/Task4_TB/Task4_tb3.vhd|0*161112*0xb36912a745da5387279852b144b0fdaa0b4ea659|0*161356*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb3.vhd|273
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_ent_tb1]
+A/task4_arch_tb1=A/Task4_arch_tb1 21|./src/Task4_TB/Task4_tb1.vhd|34|1*314051
+BinI32/task4_arch_tb1=3*117544
+I=0*146597
+I/task4_arch_tb1=I/Task4_arch_tb1 0*149116
+M=11|0|v98|1418389387523|./src/Task4_TB/Task4_tb1.vhd|0*146200*0xbaca2b717a2f7f55bcae5a788dc6335eaae3ccd1|0*146505*0xab32bc1a2daf049573e14469f634e0e6
+M/task4_arch_tb1=M/Task4_arch_tb1 21|0|v98|1418389387525|./src/Task4_TB/Task4_tb1.vhd|0*146959*0x5c18c2faf841060a06b63027a057605ae4094894|0*149006*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb1.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task4_arch_tb1=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_ent_tb2]
+A/task4_arch_tb2=A/Task4_arch_tb2 21|./src/Task4_TB/Task4_tb2.vhd|34|1*319530
+BinI32/task4_arch_tb2=3*118937
+I=0*150857
+I/task4_arch_tb2=I/Task4_arch_tb2 0*154815
+M=11|0|v98|1418389387563|./src/Task4_TB/Task4_tb2.vhd|0*150460*0x6c8e358f875c2160c974ccc7777069e44fa31494|0*150765*0xab32bc1a2daf049573e14469f634e0e6
+M/task4_arch_tb2=M/Task4_arch_tb2 21|0|v98|1418389387565|./src/Task4_TB/Task4_tb2.vhd|0*151219*0x55f6c03835fe6bdbb01da6c86a98fb472d6b859e|0*154705*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb2.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task4_arch_tb2=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[task4_ent_tb3]
+A/task4_arch_tb3=A/Task4_arch_tb3 21|./src/Task4_TB/Task4_tb3.vhd|34|1*325039
+BinI32/task4_arch_tb3=3*121228
+I=0*156558
+I/task4_arch_tb3=I/Task4_arch_tb3 0*160617
+M=11|0|v98|1418389387603|./src/Task4_TB/Task4_tb3.vhd|0*156161*0x35797e86a78583b7522efec920343d986d32b531|0*156466*0xab32bc1a2daf049573e14469f634e0e6
+M/task4_arch_tb3=M/Task4_arch_tb3 21|0|v98|1418389387605|./src/Task4_TB/Task4_tb3.vhd|0*156920*0x213a8078fbfd95d05bfc2a23fa034af47a054821|0*160507*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Task4_TB/Task4_tb3.vhd|31
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/task4_arch_tb3=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=132
+Version=73
+
+[~MFT]
+0=159|0Lab05.mgf|163923|2282
+1=31|1Lab05.mgf|332372|3708
+3=19|3Lab05.mgf|123602|879
+
+[~U]
+task1=Task1 11|0*91459|
+task1_cfg_tb1=Task1_cfg_tb1 2||
+task1_cfg_tb2=Task1_cfg_tb2 2||
+task1_cfg_tb3=Task1_cfg_tb3 2||
+task1_ent_tb1=Task1_ent_tb1 11|0*99238|
+task1_ent_tb2=Task1_ent_tb2 11|0*103663|
+task1_ent_tb3=Task1_ent_tb3 11|0*109843|
+task2=Task2 11|0*93421|
+task2_cfg_tb1=Task2_cfg_tb1 2||
+task2_cfg_tb2=Task2_cfg_tb2 2||
+task2_cfg_tb3=Task2_cfg_tb3 2||
+task2_ent_tb1=Task2_ent_tb1 11|0*115480|
+task2_ent_tb2=Task2_ent_tb2 11|0*119756|
+task2_ent_tb3=Task2_ent_tb3 11|0*124841|
+task3=Task3 11|0*95321|
+task3_cfg_tb1=Task3_cfg_tb1 2||
+task3_cfg_tb2=Task3_cfg_tb2 2||
+task3_cfg_tb3=Task3_cfg_tb3 2||
+task3_ent_tb1=Task3_ent_tb1 11|0*130707|
+task3_ent_tb2=Task3_ent_tb2 11|0*134983|
+task3_ent_tb3=Task3_ent_tb3 11|0*140249|
+task4=Task4 11|0*97268|
+task4_cfg_tb1=Task4_cfg_tb1 2||
+task4_cfg_tb2=Task4_cfg_tb2 2||
+task4_cfg_tb3=Task4_cfg_tb3 2||
+task4_ent_tb1=Task4_ent_tb1 11|0*146115|
+task4_ent_tb2=Task4_ent_tb2 11|0*150375|
+task4_ent_tb3=Task4_ent_tb3 11|0*156076|
+

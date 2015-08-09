@@ -1,0 +1,6 @@
+CKID0001:@|S:un1_wr_6_0_a2@|E:sram_2[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001
+CKID0002:@|S:un1_wr_5_0_a2@|E:sram_1[0]@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002
+CKID0003:@|S:un1_wr_4_0_a2@|E:sram_0[0]@|F:@syn_sample_clock_path2==CKID0003@|M:ClockId0003
+CKID0004:@|S:RDP.un24_wr_0_a2@|E:DB_1[0]@|F:@syn_sample_clock_path3==CKID0004@|M:ClockId0004
+CKID0005:@|S:un1_wr_7_0_a2@|E:sram_3[1]@|F:@syn_sample_clock_path==CKID0005@|M:ClockId0005
+CKID0006:@|S:CLK@|E:head[0]@|F:@syn_sample_clock_path==CKID0006@|M:ClockId0006

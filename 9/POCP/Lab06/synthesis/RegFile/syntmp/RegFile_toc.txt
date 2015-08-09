@@ -1,0 +1,5 @@
+   Synthesis - ""
+Backannotation Report (17:19 14-Nov)  - "E:\Embedded\Projects\POCP\Lab06\synthesis\RegFile\RegFile.srr"
+Hierarchical Area Report(RegFile) (21:13 08-Nov)  - "E:\Embedded\Projects\POCP\Lab06\synthesis\RegFile\rpt_RegFile.areasrr"
+   Place and Route - ""
+Session Log (17:18 14-Nov)  - "E:\Embedded\Projects\POCP\Lab06\synthesis\stdout.log"

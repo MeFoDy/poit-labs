@@ -1,0 +1,16 @@
+.\src\DLatch.vhd
+.\src\And2.vhd
+.\src\Inv.vhd
+.\src\Nor2.vhd
+.\src\DELatch.vhd
+.\src\DESync.vhd
+.\src\DFF_Enable_Async.vhd
+.\src\Task1\AsyncRegister.vhd
+.\src\Task2\SyncRegister.vhd
+.\src\Task3\ShiftRegister.vhd
+.\src\Task4\JC.vhd
+.\src\Task5\LFSR_Out.vhd
+.\src\Task6\LFSR_In.vhd
+.\src\Testbench\LFSR_In_t.vhd
+.\src\Testbench\JS_test.vhd
+.\src\Task7\Signature.vhd

@@ -1,0 +1,3 @@
+vhdl Lab03 "../src/NOR2.vhd"
+vhdl Lab03 "../src/Inv.vhd"
+vhdl Lab03 "../src/Task3/D_Latch.vhd"

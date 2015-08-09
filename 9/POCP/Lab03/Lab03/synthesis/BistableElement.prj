@@ -1,0 +1,2 @@
+vhdl Lab03 "../src/Inv.vhd"
+vhdl Lab03 "../src/Task1/BistableElement.vhd"

@@ -1,0 +1,100 @@
+
+
+End Points:
+
+   Index   Instance    Pin   Type   Start Clock   End Clock    Clock Delay   Req Per    Slack
+   -----   --------    ---   ----   -----------   ---------    -----------   -------    -----
+       1   sram_0[0]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       2   sram_0[1]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       3   sram_1[0]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       4   sram_1[1]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       5   sram_2[0]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       6   sram_2[1]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       7   sram_3[0]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       8   sram_3[1]   D     reg    System:f      System:f           0.000    10.189   -1.798
+       9   head[31]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.636
+      10   head[30]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.596
+      11   head[29]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.555
+      12   head[28]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.515
+      13   head[27]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.474
+      14   head[26]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.434
+      15   head[25]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.393
+      16   head[24]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.353
+      17   head[23]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.312
+      18   head[22]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.272
+      19   head[21]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.231
+      20   head[20]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.191
+      21   head[19]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.150
+      22   head[18]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.110
+      23   head[17]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.069
+      24   head[16]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -1.029
+      25   head[15]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.988
+      26   head[14]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.948
+      27   head[13]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.907
+      28   head[12]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.867
+      29   head[11]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.826
+      30   head[10]    D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.786
+      31   head[9]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.745
+      32   head[8]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.705
+      33   head[7]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.664
+      34   head[6]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.624
+      35   head[5]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.583
+      36   head[4]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.543
+      37   head[3]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.502
+      38   head[2]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.462
+      39   head[1]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271   -0.421
+      40   head[0]     D     reg    LIFO|CLK:r    LIFO|CLK:r         0.000     9.271    0.359
+      41   DB_1[0]     D     reg    LIFO|CLK:r    System:f           0.000     9.271    5.279
+      42   DB_1[1]     D     reg    LIFO|CLK:r    System:f           0.000     9.271    5.279
+      43   DB_1[0]     D     reg    System:f      System:f           0.000    10.189    6.781
+      44   DB_1[1]     D     reg    System:f      System:f           0.000    10.189    6.781
+
+
+Start Points:
+
+   Index   Instance      Pin   Type   Start Clock   Clock Delay    Slack
+   -----   --------      ---   ----   -----------   -----------    -----
+       1   DB_e_rep0_i   Q     reg    System:f            0.000   -1.798
+       2   DB_e_i        Q     reg    System:f            0.000   -1.798
+       3   DB_e_rep0_i   Q     reg    System:f            0.000   -1.798
+       4   DB_e_i        Q     reg    System:f            0.000   -1.798
+       5   DB_e_rep0_i   Q     reg    System:f            0.000   -1.798
+       6   DB_e_i        Q     reg    System:f            0.000   -1.798
+       7   DB_e_rep0_i   Q     reg    System:f            0.000   -1.798
+       8   DB_e_i        Q     reg    System:f            0.000   -1.798
+       9   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.636
+      10   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.596
+      11   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.555
+      12   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.515
+      13   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.474
+      14   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.434
+      15   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.393
+      16   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.353
+      17   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.312
+      18   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.272
+      19   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.231
+      20   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.191
+      21   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.150
+      22   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.110
+      23   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.069
+      24   head[19]      Q     reg    LIFO|CLK:r          0.000   -1.029
+      25   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.988
+      26   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.948
+      27   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.907
+      28   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.867
+      29   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.826
+      30   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.786
+      31   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.745
+      32   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.705
+      33   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.664
+      34   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.624
+      35   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.583
+      36   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.543
+      37   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.502
+      38   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.462
+      39   head[19]      Q     reg    LIFO|CLK:r          0.000   -0.421
+      40   head[19]      Q     reg    LIFO|CLK:r          0.000    0.359
+      41   head[1]       Q     reg    LIFO|CLK:r          0.000    5.279
+      42   head[1]       Q     reg    LIFO|CLK:r          0.000    5.279
+      43   sram_0[0]     Q     reg    System:f            0.000    6.781
+      44   sram_0[1]     Q     reg    System:f            0.000    6.781

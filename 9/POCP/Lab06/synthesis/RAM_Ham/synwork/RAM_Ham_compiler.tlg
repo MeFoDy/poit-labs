@@ -1,0 +1,5 @@
+@N: CD630 :"E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd":6:7:6:13|Synthesizing lab06.ram_ham.beh 
+@W: CD638 :"E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd":25:8:25:10|Signal buf is undriven 
+Post processing for lab06.ram_ham.beh
+@N: CL134 :"E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd":23:8:23:11|Found RAM sram, depth=4, width=7
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd":45:2:45:3|Latch generated from process for signal ER; possible missing assignment in an if or case statement.

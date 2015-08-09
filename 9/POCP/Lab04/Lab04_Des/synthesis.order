@@ -1,0 +1,15 @@
+i<>.\src\SyncRegister.vhd
+i<>.\src\DLatch.vhd
+i<>.\src\And2.vhd
+i<>.\src\Inv.vhd
+i<>.\src\Nor2.vhd
+i<>.\src\DELatch.vhd
+i<>.\src\DESync.vhd
+i<>.\src\DFF_Enable_Async.vhd
+i<>.\src\ShiftRegister.vhd
+i<>.\src\JC.vhd
+i<>.\src\LFSR_Out.vhd
+i<>.\src\LFSR_In.vhd
+i<>.\src\JS_test.vhd
+i<>.\src\Signature.vhd
+i<>.\src\LFSR_In_t.vhd

@@ -1,0 +1,286 @@
+timestamp=1418393902107
+
+[and2]
+A/arch=A/Arch 21|./src/AND2.vhd|10|1*1828
+BinI32/arch=3*715
+I=0*1982
+I/arch=I/Arch 0*2288
+M=11|0|v98|1418379556020|./src/AND2.vhd|0*1725*0xd4e6c6a99a12d6e661a92e8eacffd3e7400d5404|0*1913*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418379556022|./src/AND2.vhd|0*2080*0x053ae65da28c6f1f5dc6deb3e92301b10bce00e5|0*2211*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/AND2.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/arch=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[bistableelement]
+A/struct=A/Struct 21|./src/Task1/BistableElement.vhd|11|1*4630
+BinI32/struct=3*1598
+I=0*3988
+I/struct=I/Struct 0*4555
+M=11|0|v98|1418379556100|./src/Task1/BistableElement.vhd|0*3656*0x1be12b80a059c80312d5a2e64c81fa725eedc167|0*3891*0xab32bc1a2daf049573e14469f634e0e6
+M/struct=M/Struct 21|0|v98|1418379556102|./src/Task1/BistableElement.vhd|0*4097*0x899ab4f4225639522f30699a5deb8ee291dbf03e|0*4448*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task1/BistableElement.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[bistableelement_test]
+A/beh=A/Beh 21|./src/Testbenches/BistableElement_test.vhd|9|1*6343
+I=0*7224
+I/beh=I/Beh 0*7932
+M=11|0|v98|1418379556154|./src/Testbenches/BistableElement_test.vhd|0*6843*0x159c69472b3ea0a430433b1a9b15a69140545247|0*7111*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556156|./src/Testbenches/BistableElement_test.vhd|0*7462*0xf50d419f310825fcb58756727315dce398fa5d88|0*7812*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Testbenches/BistableElement_test.vhd|6
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_enable_latch]
+A/beh=A/Beh 21|./src/Task4/D_Enable_Latch.vhd|39|1*27969
+A/struct=A/Struct 21|./src/Task4/D_Enable_Latch.vhd|12|1*24732
+BinI32/beh=3*6587
+BinI32/struct=3*6231
+I=0*17417
+I/beh=I/Beh 0*18868
+I/struct=I/Struct 0*18268
+M=11|0|v98|1418379556350|./src/Task4/D_Enable_Latch.vhd|0*17068*0x0317c34f4fa5da76edcaae19bef2c6e72b4d1f11|0*17322*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556356|./src/Task4/D_Enable_Latch.vhd|0*18536*0x0a7da8b5ad0646362eb6cf412e930e488ebd299d|0*18766*0x9883a4debb77c3d3c4860cd1e2edf83c
+M/struct=M/Struct 21|0|v98|1418379556352|./src/Task4/D_Enable_Latch.vhd|0*17525*0xca3a3481ef258573e20b7cc00a14fb749582c961|0*18163*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task4/D_Enable_Latch.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_enable_latch_param]
+A/beh=A/Beh 21|./src/Task4/D_Enable_Latch_Param.vhd|39|1*23401
+A/struct=A/Struct 21|./src/Task4/D_Enable_Latch_Param.vhd|12|1*20229
+BinI32/beh=3*5610
+BinI32/struct=3*5219
+I=0*15200
+I/beh=I/Beh 0*16755
+I/struct=I/Struct 0*16103
+M=11|0|v98|1418379556310|./src/Task4/D_Enable_Latch_Param.vhd|0*14815*0x2df006623544036c2af1684fc6c509021c2bc6a7|0*15093*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556316|./src/Task4/D_Enable_Latch_Param.vhd|0*16377*0x1167db296462fe98b15fd2861d90eb1bb366e41e|0*16641*0x9883a4debb77c3d3c4860cd1e2edf83c
+M/struct=M/Struct 21|0|v98|1418379556312|./src/Task4/D_Enable_Latch_Param.vhd|0*15314*0x751d3e92493b338d30eedc192bcc497312b21369|0*15986*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task4/D_Enable_Latch_Param.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_enable_latch_test]
+A/beh=A/Beh 21|./src/Testbenches/D_Enable_Latch_Test.vhd|9|1*39356
+BinI32/beh=3*11423
+I=0*5200
+I/beh=I/Beh 0*27240
+M=11|0|v98|1418379556140|./src/Testbenches/D_Enable_Latch_Test.vhd|0*4825*0x369d3d5621219634b783bbb91fc41cace28f46fd|0*5089*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556632|./src/Testbenches/D_Enable_Latch_Test.vhd|0*25272*0x4021d7edbbab136521788a8ae4eae68b188831f3|0*27122*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Testbenches/D_Enable_Latch_Test.vhd|6
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_latch]
+A/beh=A/Beh 21|./src/Task3/D_Latch.vhd|32|1*18931
+A/struct=A/Struct 21|./src/Task3/D_Latch.vhd|12|1*16556
+BinI32/beh=3*4659
+BinI32/struct=3*4303
+I=0*13379
+I/beh=I/Beh 0*14497
+I/struct=I/Struct 0*14000
+M=11|0|v98|1418379556270|./src/Task3/D_Latch.vhd|0*13076*0x0a0b113af9dabb668b0de80cb1b50a0a87c2eb48|0*13298*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556276|./src/Task3/D_Latch.vhd|0*14210*0xce1ce65fc076340be50eba98d3bdcab9f7985d25|0*14409*0x9883a4debb77c3d3c4860cd1e2edf83c
+M/struct=M/Struct 21|0|v98|1418379556272|./src/Task3/D_Latch.vhd|0*13480*0xbd1a87afae793683da8232fc3471aa28254a94cd|0*13909*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task3/D_Latch.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_latch_param]
+A/beh=A/Beh 21|./src/Task3/D_Latch_Param.vhd|31|1*15323
+A/struct=A/Struct 21|./src/Task3/D_Latch_Param.vhd|11|1*13009
+BinI32/beh=3*3700
+BinI32/struct=3*3320
+I=0*11591
+I/beh=I/Beh 0*12809
+I/struct=I/Struct 0*12262
+M=11|0|v98|1418379556230|./src/Task3/D_Latch_Param.vhd|0*11267*0x187b279a458746686a0b180636a27d13a67e3d54|0*11498*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556236|./src/Task3/D_Latch_Param.vhd|0*12478*0xdf855c7915dabcc8bd0ff3a1de2a16bc3c8d06cb|0*12709*0x9883a4debb77c3d3c4860cd1e2edf83c
+M/struct=M/Struct 21|0|v98|1418379556232|./src/Task3/D_Latch_Param.vhd|0*11698*0xdbb5fd09f82f93dc2582dcb0c207ca536e01a596|0*12159*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task3/D_Latch_Param.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[d_latch_test]
+A/beh=A/Beh 21|./src/Testbenches/D_Latch_Test.vhd|9|1*44595
+BinI32/beh=3*13010
+I=0*5852
+I/beh=I/Beh 0*29340
+M=11|0|v98|1418379556150|./src/Testbenches/D_Latch_Test.vhd|0*5519*0x7ef17dd3982657182cde93f1b11a8efc0d05df7e|0*5755*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556672|./src/Testbenches/D_Latch_Test.vhd|0*27542*0xadfe8777dd8899f356c0e246b45df36ef0cb62c2|0*29236*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Testbenches/D_Latch_Test.vhd|6
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[dff]
+A/behavior=A/Behavior 21|./src/Task5/DFF.vhd|9|1*29367
+BinI32/behavior=3*7163
+I=0*19389
+I/behavior=I/Behavior 0*19771
+M=11|0|v98|1418379556390|./src/Task5/DFF.vhd|0*19126*0xec79f56c470f368e300d76de7a8af9e088a46c5a|0*19316*0xab32bc1a2daf049573e14469f634e0e6
+M/behavior=M/Behavior 21|0|v98|1418379556392|./src/Task5/DFF.vhd|0*19486*0x2ea36db11faa07d3cd563c45411e28c1902fe806|0*19686*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task5/DFF.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/behavior=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[dff_enable_async]
+A/behavioral=A/Behavioral 21|./src/Task6/DFF_Enable_Async.vhd|13|1*30336
+BinI32/behavioral=3*7561
+I=0*20576
+I/behavioral=I/Behavioral 0*21179
+M=11|0|v98|1418379556420|./src/Task6/DFF_Enable_Async.vhd|0*20147*0xf1a0fe468bbd72414def6b4e99ffc02f4507acbe|0*20477*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|v98|1418379556422|./src/Task6/DFF_Enable_Async.vhd|0*20686*0x197a5bf753f12fff6580868ec5514ad0d685a190|0*21066*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task6/DFF_Enable_Async.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/behavioral=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[inv]
+A/arch=A/Arch 21|./src/Inv.vhd|10|1*0
+BinI32/arch=3*0
+I=0*370
+I/arch=I/Arch 0*667
+M=11|0|v98|1418379555900|./src/Inv.vhd|0*123*0x0fcae18568e26ecd30e7d6593a7416ca50620a7e|0*303*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418379555902|./src/Inv.vhd|0*467*0x79b00fe0316c926643fb2895ba08231754ebd8c2|0*592*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Inv.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/arch=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[jkff]
+A/behavioral=A/Behavioral 21|./src/Task9/JKFF.vhd|10|1*35158
+BinI32/behavioral=3*10002
+I=0*23874
+I/behavioral=I/Behavioral 0*24435
+M=11|0|v98|1418379556530|./src/Task9/JKFF.vhd|0*23594*0x6329b0da510960b0becfb2526e78657b2bacd45f|0*23799*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|v98|1418379556532|./src/Task9/JKFF.vhd|0*23972*0xb6e79c812a823a7802f3e1696fb3591f1de03be1|0*24346*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task9/JKFF.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/behavioral=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[nor2]
+A/arch=A/Arch 21|./src/NOR2.vhd|10|1*890
+BinI32/arch=3*345
+I=0*1171
+I/arch=I/Arch 0*1477
+M=11|0|v98|1418379555970|./src/NOR2.vhd|0*914*0x40443597a98f8cb05bbea17a091e93a1bfe2d6d6|0*1102*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418379555972|./src/NOR2.vhd|0*1269*0x52ce919eb426a8f3970443bc041d38bfb9be7a06|0*1400*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/NOR2.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/arch=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[rs_latch]
+A/beh=A/Beh 21|./src/Task2/RS_Latch.vhd|25|1*54754
+A/struct=A/Struct 21|./src/Task2/RS_Latch.vhd|11|1*52708
+BinI32/beh=3*15942
+BinI32/struct=3*15586
+I=0*9991
+I/beh=I/Beh 0*10987
+I/struct=I/Struct 0*10523
+M=11|0|v98|1418379556190|./src/Task2/RS_Latch.vhd|0*9693*0x1c4fa557fe82f29a4b266d8cb653f81310793b1e|0*9908*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418393902056|./src/Task2/RS_Latch.vhd|0*10684*0x8c2fe759740e2139b9cd37fc1f39156ce01f1ba7|0*10897*0x9883a4debb77c3d3c4860cd1e2edf83c
+M/struct=M/Struct 21|0|v98|1418393902052|./src/Task2/RS_Latch.vhd|0*10093*0xa5e01136deea64553f9cee19a93bc31fcd2fc9bb|0*10430*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task2/RS_Latch.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[rs_latch_param]
+A/struct=A/Struct 21|./src/Task2/RS_Latch_Param.vhd|11|1*7419
+BinI32/struct=3*1986
+I=0*8765
+I/struct=I/Struct 0*9349
+M=11|0|v98|1418379556160|./src/Task2/RS_Latch_Param.vhd|0*8431*0x39081f223712f7c5d55ce954eb78242b4c72c4e4|0*8670*0xab32bc1a2daf049573e14469f634e0e6
+M/struct=M/Struct 21|0|v98|1418379556162|./src/Task2/RS_Latch_Param.vhd|0*8873*0x82956e990c40206b76002f465a34c1bd5b8d289c|0*9244*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task2/RS_Latch_Param.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/struct=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[rs_latch_test]
+A/beh=A/Beh 21|./src/Testbenches/RS_Latch_Test.vhd|9|1*49690
+BinI32/beh=3*14593
+I=0*6506
+I/beh=I/Beh 0*30779
+M=11|0|v98|1418379556152|./src/Testbenches/RS_Latch_Test.vhd|0*6167*0x36099859741569d5d4f58022b7a323e4eea3e4d5|0*6407*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418379556712|./src/Testbenches/RS_Latch_Test.vhd|0*29628*0xe6df2dc3d0fb8e5795c519c7694c65bb4761241f|0*30673*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Testbenches/RS_Latch_Test.vhd|6
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/beh=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[rsff]
+A/behavioral=A/Behavioral 21|./src/Task8/RSFF.vhd|10|1*33575
+BinI32/behavioral=3*9143
+I=0*22774
+I/behavioral=I/Behavioral 0*23298
+M=11|0|v98|1418379556490|./src/Task8/RSFF.vhd|0*22494*0x01ed0b1e4136d1f7de643ada006f161ca288f205|0*22699*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|v98|1418379556492|./src/Task8/RSFF.vhd|0*22872*0xdf807c0bd0b730b7b394fd7b3894ecfc5e53401e|0*23209*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task8/RSFF.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/behavioral=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[rslatch_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/Test.vhd|9|1*36969
+BinI32/tb_architecture=3*10910
+I=0*2699
+I/tb_architecture=I/TB_ARCHITECTURE 0*24544
+M=11|0|v98|1418379556060|./src/Test.vhd|0*2467*0x2349d0d6a58cf6b56346be237c21992b1ae0450e|0*2624*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v98|1418379556595|./src/Test.vhd|0*2803*0x214ad528f97fd69b1e17421a1b42267ecc178106|0*3325*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Test.vhd|6
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/tb_architecture=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[testbench_for_rslatch]
+Configures=rslatch_tb.TB_ARCHITECTURE
+E=1*38848
+I=0*25095
+M=2|0|v98|1418379556596|./src/Test.vhd|0*24726*0x525bbd95e06d22fbe5a9dda54001ec953f8059ba|0*24996*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Test.vhd|58
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[tff]
+A/behavioral=A/Behavioral 21|./src/Task7/TFF.vhd|11|1*32031
+BinI32/behavioral=3*8377
+I=0*21731
+I/behavioral=I/Behavioral 0*22199
+M=11|0|v98|1418379556450|./src/Task7/TFF.vhd|0*21462*0x045c63275800139a065a430208dc3e56af18eb2a|0*21658*0xab32bc1a2daf049573e14469f634e0e6
+M/behavioral=M/Behavioral 21|0|v98|1418379556452|./src/Task7/TFF.vhd|0*21828*0xa507500164c691fc265b98a521e53a9a13d20b03|0*22112*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/Task7/TFF.vhd|4
+Version=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+Version/behavioral=9.1.2353.4205  (Windows)|00000004789cd34d494a0700030f015b
+
+[~A]
+ModifyID=137
+Version=73
+
+[~MFT]
+0=159|0Lab03.mgf|30779|75
+1=31|1Lab03.mgf|54754|5469
+3=29|3Lab03.mgf|15942|1458
+
+[~U]
+and2=AND2 11|0*1580|
+bistableelement=BistableElement 11|0*3494|
+bistableelement_test=BistableElement_test 11|0*6737|
+d_enable_latch=D_Enable_Latch 11|0*16873|
+d_enable_latch_param=D_Enable_Latch_Param 11|0*14602|
+d_enable_latch_test=D_Enable_Latch_Test 11|0*4722|
+d_latch=D_Latch 11|0*12920|
+d_latch_param=D_Latch_Param 11|0*11093|
+d_latch_test=D_Latch_Test 11|0*5437|
+dff=DFF 11|0*18980|
+dff_enable_async=DFF_Enable_Async 11|0*19877|
+inv=Inv 11|0*0|
+jkff=JKFF 11|0*23407|
+nor2=NOR2 11|0*769|
+rs_latch=RS_Latch 11|0*9516|
+rs_latch_param=RS_Latch_Param 11|0*8236|
+rs_latch_test=RS_Latch_Test 11|0*6082|
+rsff=RSFF 11|0*22307|
+rslatch_tb=11|0*2391|
+testbench_for_rslatch=TESTBENCH_FOR_rslatch 2||
+tff=TFF 11|0*21300|
+

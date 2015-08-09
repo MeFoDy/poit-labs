@@ -1,0 +1,33 @@
+---------------------------------------
+Resource Usage Report for RegFile 
+
+Mapping to part: xc2s15cs144-6
+Cell usage:
+FDCE            16 uses
+GND             5 uses
+VCC             4 uses
+LUT2            8 uses
+
+I/O ports: 14
+I/O primitives: 14
+IBUF           9 uses
+IBUFG          1 use
+OBUFT          4 uses
+
+BUFG           1 use
+
+I/O Register bits:                  4
+Register bits not including I/Os:   12 (3%)
+
+Internal tri-state buffer usage summary
+BUFTs + BUFEs: 16 of 192 (8%)
+
+Global Clock Buffers: 1 of 4 (25%)
+
+
+Mapping Summary:
+Total  LUTs: 8 (2%)
+
+Distribution of All Consumed LUTs = LUT2 
+Distribution of All Consumed Luts 8 = 8 
+

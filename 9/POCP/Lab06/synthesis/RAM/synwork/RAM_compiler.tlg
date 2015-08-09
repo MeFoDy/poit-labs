@@ -1,0 +1,3 @@
+@N: CD630 :"E:\Embedded\Projects\POCP\Lab06\src\RAM.vhd":6:7:6:9|Synthesizing lab06.ram.beh 
+Post processing for lab06.ram.beh
+@N: CL134 :"E:\Embedded\Projects\POCP\Lab06\src\RAM.vhd":30:8:30:11|Found RAM sram, depth=4, width=2

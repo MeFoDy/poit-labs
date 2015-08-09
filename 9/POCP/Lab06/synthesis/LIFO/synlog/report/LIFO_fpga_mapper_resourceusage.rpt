@@ -1,0 +1,42 @@
+---------------------------------------
+Resource Usage Report for LIFO 
+
+Mapping to part: xc2s15cs144-6
+Cell usage:
+FD              32 uses
+GND             1 use
+LD              8 uses
+LDC             2 uses
+LDP             2 uses
+MUXCY_L         32 uses
+MUXF5           2 uses
+VCC             1 use
+XORCY           32 uses
+LUT1            1 use
+LUT2            35 uses
+LUT3            9 uses
+LUT4            14 uses
+
+I/O ports: 6
+I/O primitives: 6
+IBUF           1 use
+IBUFG          1 use
+IOBUF          2 uses
+OBUF           2 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   32 (8%)
+I/O Latch bits:                     2
+Latch bits not including I/Os:      10 (2%)
+
+Global Clock Buffers: 1 of 4 (25%)
+
+
+Mapping Summary:
+Total  LUTs: 59 (15%)
+
+Distribution of All Consumed LUTs = LUT1 + LUT2 + LUT3 + LUT4 
+Distribution of All Consumed Luts 59 = 1 + 35 + 9 + 14 
+

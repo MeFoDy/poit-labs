@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/AND2.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Inv.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/NOR2.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Task1/BistableElement.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Task2/RS_Latch.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Task2/RS_Latch_Param.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Task3/D_Latch.vhd&quot; into library Lab03</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;I:/Embedded/_Projects/POCP/Lab03/Lab03/src/Task3/D_Latch_Param.vhd&quot; into library Lab03</arg>
+</msg>
+
+</messages>
+

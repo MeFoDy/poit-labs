@@ -1,0 +1,223 @@
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 14 17:24:27 2014
+#
+
+
+Top view:               LIFO
+Requested Frequency:    107.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 1.386
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+LIFO|CLK           107.9 MHz     91.7 MHz      9.271         10.907        -1.636     inferred     Autoconstr_clkgroup_0
+System             98.1 MHz      83.4 MHz      10.189        11.987        -1.798     system       system_clkgroup      
+========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System    |  No paths    -      |  0.000       1.386  |  No paths    -      |  No paths    -    
+LIFO|CLK  System    |  No paths    -      |  No paths    -      |  0.000       1.702  |  No paths    -    
+LIFO|CLK  LIFO|CLK  |  0.000       1.520  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: LIFO|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                    Arrival          
+Instance     Reference     Type     Pin     Net          Time        Slack
+             Clock                                                        
+--------------------------------------------------------------------------
+head[3]      LIFO|CLK      FD       Q       head[3]      0.759       1.798
+head[4]      LIFO|CLK      FD       Q       head[4]      0.759       1.798
+head[5]      LIFO|CLK      FD       Q       head[5]      0.759       1.798
+head[6]      LIFO|CLK      FD       Q       head[6]      0.759       1.798
+head[7]      LIFO|CLK      FD       Q       head[7]      0.759       1.798
+head[8]      LIFO|CLK      FD       Q       head[8]      0.759       1.798
+head[9]      LIFO|CLK      FD       Q       head[9]      0.759       1.798
+head[10]     LIFO|CLK      FD       Q       head[10]     0.759       1.798
+head[11]     LIFO|CLK      FD       Q       head[11]     0.759       1.798
+head[12]     LIFO|CLK      FD       Q       head[12]     0.759       1.798
+==========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                      Required          
+Instance     Reference     Type     Pin     Net            Time         Slack
+             Clock                                                           
+-----------------------------------------------------------------------------
+head[3]      LIFO|CLK      FD       D       head_s[3]      0.496        1.520
+head[4]      LIFO|CLK      FD       D       head_s[4]      0.496        1.520
+head[5]      LIFO|CLK      FD       D       head_s[5]      0.496        1.520
+head[6]      LIFO|CLK      FD       D       head_s[6]      0.496        1.520
+head[7]      LIFO|CLK      FD       D       head_s[7]      0.496        1.520
+head[8]      LIFO|CLK      FD       D       head_s[8]      0.496        1.520
+head[9]      LIFO|CLK      FD       D       head_s[9]      0.496        1.520
+head[10]     LIFO|CLK      FD       D       head_s[10]     0.496        1.520
+head[11]     LIFO|CLK      FD       D       head_s[11]     0.496        1.520
+head[12]     LIFO|CLK      FD       D       head_s[12]     0.496        1.520
+=============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        2.017
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.496
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 1.520
+
+    Number of logic level(s):                2
+    Starting point:                          head[3] / Q
+    Ending point:                            head[3] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+head[3]            FD        Q        Out     0.759     0.759       -         
+head[3]            Net       -        -       0.648     -           2         
+head_qxu[3]        LUT2      I0       In      -         1.408       -         
+head_qxu[3]        LUT2      O        Out     0.384     1.791       -         
+head_qxu[3]        Net       -        -       0.000     -           2         
+head_s[3]          XORCY     LI       In      -         1.791       -         
+head_s[3]          XORCY     O        Out     0.225     2.017       -         
+head_s[3]          Net       -        -       0.000     -           1         
+head[3]            FD        D        In      -         2.017       -         
+==============================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                       Arrival          
+Instance        Reference     Type     Pin     Net             Time        Slack
+                Clock                                                           
+--------------------------------------------------------------------------------
+sram_1[0]       System        LD       Q       sram_1[0]       0.759       1.611
+sram_1[1]       System        LD       Q       sram_1[1]       0.759       1.611
+sram_3[0]       System        LD       Q       sram_3[0]       0.759       1.611
+sram_3[1]       System        LD       Q       sram_3[1]       0.759       1.611
+sram_0[0]       System        LD       Q       sram_0[0]       0.759       1.618
+sram_0[1]       System        LD       Q       sram_0[1]       0.759       1.618
+sram_2[0]       System        LD       Q       sram_2[0]       0.759       1.618
+sram_2[1]       System        LD       Q       sram_2[1]       0.759       1.618
+DB_e_i          System        LDP      Q       DB_e_i          3.589       7.706
+DB_e_rep0_i     System        LDP      Q       DB_e_rep0_i     3.589       7.706
+================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                    Required          
+Instance      Reference     Type     Pin     Net          Time         Slack
+              Clock                                                         
+----------------------------------------------------------------------------
+DB_1[0]       System        LDC      D       N_73         0.496        1.386
+DB_1[1]       System        LDC      D       N_74         0.496        1.386
+sram_0[0]     System        LD       D       DB_in[0]     0.496        7.399
+sram_0[1]     System        LD       D       DB_in[1]     0.496        7.399
+sram_1[0]     System        LD       D       DB_in[0]     0.496        7.399
+sram_1[1]     System        LD       D       DB_in[1]     0.496        7.399
+sram_2[0]     System        LD       D       DB_in[0]     0.496        7.399
+sram_2[1]     System        LD       D       DB_in[1]     0.496        7.399
+sram_3[0]     System        LD       D       DB_in[0]     0.496        7.399
+sram_3[1]     System        LD       D       DB_in[1]     0.496        7.399
+============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.882
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.496
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (critical) :                     1.386
+
+    Number of logic level(s):                2
+    Starting point:                          sram_1[0] / Q
+    Ending point:                            DB_1[0] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net                       Pin      Pin               Arrival     No. of    
+Name                       Type      Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------
+sram_1[0]                  LD        Q        Out     0.759     0.759       -         
+sram_1[0]                  Net       -        -       0.525     -           1         
+RDP\.DB_1_3_i_m2_bm[0]     LUT3      I1       In      -         1.285       -         
+RDP\.DB_1_3_i_m2_bm[0]     LUT3      O        Out     0.384     1.668       -         
+RDP\.DB_1_3_i_m2_bm[0]     Net       -        -       0.000     -           1         
+RDP\.DB_1_3_i_m2[0]        MUXF5     I1       In      -         1.668       -         
+RDP\.DB_1_3_i_m2[0]        MUXF5     O        Out     0.214     1.882       -         
+N_73                       Net       -        -       0.000     -           1         
+DB_1[0]                    LDC       D        In      -         1.882       -         
+======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

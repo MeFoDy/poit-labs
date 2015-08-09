@@ -1,0 +1,38 @@
+---------------------------------------
+Resource Usage Report for RAM_Ham 
+
+Mapping to part: xc2s15cs144-6
+Cell usage:
+GND             1 use
+LD              1 use
+RAM16X1S        7 uses
+LUT2            1 use
+LUT3            3 uses
+LUT4            3 uses
+
+I/O ports: 9
+I/O primitives: 9
+IBUF           2 uses
+IBUFG          2 uses
+IOBUF          4 uses
+OBUF           1 use
+
+BUFG           2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+I/O Latch bits:                     1
+
+RAM/ROM usage summary
+Single Port Rams (RAM16X1S): 7
+
+
+Global Clock Buffers: 2 of 4 (50%)
+
+
+Mapping Summary:
+Total  LUTs: 14 (3%)
+
+Distribution of All Consumed LUTs = RAM + LUT2 + LUT3 + LUT4 
+Distribution of All Consumed Luts 14 = 7 + 1 + 3 + 3 
+

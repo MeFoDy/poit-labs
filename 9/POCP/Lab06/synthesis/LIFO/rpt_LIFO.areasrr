@@ -1,0 +1,76 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC2S15CS144-6 (Xilinx)
+
+--------------------------------------------------------------------
+########   Utilization report for  Top level view:   LIFO   ########
+====================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     32                 100 %                
+LATCHES       12                 100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block LIFO:	44 (24.58 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     59                 100 %                
+MUXCY                    32                 100 %                
+XORCY                    32                 100 %                
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block LIFO:	123 (68.72 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block LIFO:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block LIFO:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block LIFO:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     6                  100 %                
+=================================================
+Total IO PADS in the block LIFO:	6 (3.35 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

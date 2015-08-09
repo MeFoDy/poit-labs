@@ -1,0 +1,47 @@
+Synopsys Xilinx Technology Pre-mapping, Version maprc, Build 1495R, Built Mar  1 2013 13:42:34
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: E:\Embedded\Projects\POCP\Lab06\synthesis\RAM\RegFile_scck.rpt 
+Printing clock  summary report in "E:\Embedded\Projects\POCP\Lab06\synthesis\RAM\RegFile_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+Reading Xilinx I/O pad type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\x_io_tbl_spartan2.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\gttype.txt> 
+
+
+Clock Summary
+**************
+
+Start       Requested     Requested     Clock        Clock                
+Clock       Frequency     Period        Type         Group                
+--------------------------------------------------------------------------
+RAM|CLK     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0
+==========================================================================
+
+@W: MT529 :"e:\embedded\projects\pocp\lab06\src\ram.vhd":30:8:30:11|Found inferred clock RAM|CLK which controls 2 sequential elements including sram[1:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=4  set on top level netlist RAM
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file E:\Embedded\Projects\POCP\Lab06\synthesis\RAM\RegFile.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 130MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 14 17:22:05 2014
+
+###########################################################]

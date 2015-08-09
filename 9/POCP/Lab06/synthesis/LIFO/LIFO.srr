@@ -1,0 +1,1297 @@
+#Build: Synplify Pro H-2013.03, Build 274R, Mar  1 2013
+#install: E:\Embedded\Synplify\fpga_H201303
+#OS: Windows 7 6.1
+#Hostname: MIDGARD-PC
+
+#Implementation: LIFO
+
+$ Start of Compile
+#Fri Nov 14 17:24:22 2014
+
+Synopsys VHDL Compiler, version comp201303rc, Build 036R, built Feb 25 2013
+@N|Running in 64-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"E:\Embedded\Synplify\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":6:7:6:10|Top entity is set to LIFO.
+File E:\Embedded\Projects\POCP\Lab06\src\RegN.vhd changed - recompiling
+File E:\Embedded\Projects\POCP\Lab06\src\RAM.vhd changed - recompiling
+File E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd changed - recompiling
+File E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd changed - recompiling
+File E:\Embedded\Projects\POCP\Lab06\src\RegFile.vhd changed - recompiling
+VHDL syntax check successful!
+File E:\Embedded\Projects\POCP\Lab06\src\RAM.vhd changed - recompiling
+@N: CD630 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":6:7:6:10|Synthesizing lab06.lifo.beh 
+@W: CG296 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":59:6:59:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":63:22:63:23|Referenced variable db is not in sensitivity list
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":61:5:61:6|Referenced variable wr is not in sensitivity list
+@W: CG296 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":68:6:68:12|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:5:70:6|Referenced variable wr is not in sensitivity list
+Post processing for lab06.lifo.beh
+@W: CL169 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:2:70:3|Pruning register DB_cl_5(1)  
+@W: CL169 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":70:2:70:3|Pruning register DB_cl_5(0)  
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_3(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_2(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_1(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":31:25:31:25|Latch generated from process for signal sram_0(1 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB_e; possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB(0); possible missing assignment in an if or case statement.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB_e; possible missing assignment in an if or case statement.
+@N: CL177 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Sharing sequential element DB_e.
+@W: CL117 :"E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd":36:2:36:3|Latch generated from process for signal DB(1); possible missing assignment in an if or case statement.
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 14 17:24:22 2014
+
+###########################################################]
+Premap Report
+
+Synopsys Xilinx Technology Pre-mapping, Version maprc, Build 1495R, Built Mar  1 2013 13:42:34
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@L: E:\Embedded\Projects\POCP\Lab06\synthesis\LIFO\LIFO_scck.rpt 
+Printing clock  summary report in "E:\Embedded\Projects\POCP\Lab06\synthesis\LIFO\LIFO_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+Reading Xilinx I/O pad type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\x_io_tbl_spartan2.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\gttype.txt> 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":71:7:71:34|Net RDP\.un24_wr appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_4 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_5 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_7 appears to be an unidentified clock source. Assuming default frequency. 
+
+
+Clock Summary
+**************
+
+Start        Requested     Requested     Clock        Clock                
+Clock        Frequency     Period        Type         Group                
+---------------------------------------------------------------------------
+LIFO|CLK     131.6 MHz     7.597         inferred     Autoconstr_clkgroup_0
+===========================================================================
+
+@W: MT531 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Found signal identified as System clock which controls 11 sequential elements including sram_3[1:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":36:2:36:3|Found inferred clock LIFO|CLK which controls 32 sequential elements including head[31:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+syn_allowed_resources : blockrams=4  set on top level netlist LIFO
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file E:\Embedded\Projects\POCP\Lab06\synthesis\LIFO\LIFO.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 130MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 14 17:24:24 2014
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Xilinx Technology Mapper, Version maprc, Build 1495R, Built Mar  1 2013 13:42:34
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+Reading Xilinx I/O pad type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\x_io_tbl_spartan2.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <E:\Embedded\Synplify\fpga_H201303\lib\xilinx\gttype.txt> 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":71:7:71:34|Net RDP\.un24_wr appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_4 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_5 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"e:\embedded\projects\pocp\lab06\src\lifo.vhd":31:25:31:25|Net un1_wr_7 appears to be an unidentified clock source. Assuming default frequency. 
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 129MB)
+
+@N:"e:\embedded\projects\pocp\lab06\src\lifo.vhd":36:2:36:3|Found updn counter in view:lab06.LIFO(beh) inst head[31:0] 
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port CLK,
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -3.95ns		  60 /        32
+------------------------------------------------------------
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -3.95ns		  60 /        32
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -3.95ns		  60 /        32
+------------------------------------------------------------
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 32 clock pin(s) of sequential element(s)
+5 gated/generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+0 instances converted, 12 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0006       CLK                 port                   32         head[0]        
+=======================================================================================
+=============================================== Gated/Generated Clocks ===============================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance     Explanation              
+----------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       un1_wr_6_0_a2        LUT4                   2          sram_2[0]           No clocks found on inputs
+@K:CKID0002       un1_wr_5_0_a2        LUT4                   2          sram_1[0]           No clocks found on inputs
+@K:CKID0003       un1_wr_4_0_a2        LUT4                   2          sram_0[0]           No clocks found on inputs
+@K:CKID0004       RDP.un24_wr_0_a2     LUT2                   4          DB_1[0]             No clocks found on inputs
+@K:CKID0005       un1_wr_7_0_a2        LUT2                   2          sram_3[1]           No clocks found on inputs
+======================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base E:\Embedded\Projects\POCP\Lab06\synthesis\LIFO\LIFO.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 127MB peak: 129MB)
+
+Writing EDIF Netlist and constraint files
+@W: FX845 |Cannot determine Xilinx version. Please check Xilinx environment variable. Writing UCF for version ISE 11.1
+H-2013.03
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 127MB peak: 129MB)
+
+@W: MT420 |Found inferred clock LIFO|CLK with period 9.27ns. Please declare a user-defined clock on object "p:CLK"
+
+@N: MT535 |Writing timing correlation to file E:\Embedded\Projects\POCP\Lab06\synthesis\LIFO\LIFO_ctd.txt 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Nov 14 17:24:27 2014
+#
+
+
+Top view:               LIFO
+Requested Frequency:    107.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.798
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+LIFO|CLK           107.9 MHz     91.7 MHz      9.271         10.907        -1.636     inferred     Autoconstr_clkgroup_0
+System             98.1 MHz      83.4 MHz      10.189        11.987        -1.798     system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise    |    fall  to  fall    |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack   |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------
+System    System    |  No paths    -       |  10.189      -1.798  |  No paths    -      |  No paths    -    
+LIFO|CLK  System    |  No paths    -       |  No paths    -       |  9.271       5.279  |  No paths    -    
+LIFO|CLK  LIFO|CLK  |  9.271       -1.636  |  No paths    -       |  No paths    -      |  No paths    -    
+============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: LIFO|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                    Arrival           
+Instance     Reference     Type     Pin     Net          Time        Slack 
+             Clock                                                         
+---------------------------------------------------------------------------
+head[3]      LIFO|CLK      FD       Q       head[3]      1.085       -1.636
+head[4]      LIFO|CLK      FD       Q       head[4]      1.085       -1.636
+head[5]      LIFO|CLK      FD       Q       head[5]      1.085       -1.636
+head[6]      LIFO|CLK      FD       Q       head[6]      1.085       -1.636
+head[7]      LIFO|CLK      FD       Q       head[7]      1.085       -1.636
+head[8]      LIFO|CLK      FD       Q       head[8]      1.085       -1.636
+head[9]      LIFO|CLK      FD       Q       head[9]      1.085       -1.636
+head[10]     LIFO|CLK      FD       Q       head[10]     1.085       -1.636
+head[11]     LIFO|CLK      FD       Q       head[11]     1.085       -1.636
+head[12]     LIFO|CLK      FD       Q       head[12]     1.085       -1.636
+===========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                      Required           
+Instance     Reference     Type     Pin     Net            Time         Slack 
+             Clock                                                            
+------------------------------------------------------------------------------
+head[31]     LIFO|CLK      FD       D       head_s[31]     8.562        -1.636
+head[30]     LIFO|CLK      FD       D       head_s[30]     8.562        -1.596
+head[29]     LIFO|CLK      FD       D       head_s[29]     8.562        -1.555
+head[28]     LIFO|CLK      FD       D       head_s[28]     8.562        -1.515
+head[27]     LIFO|CLK      FD       D       head_s[27]     8.562        -1.474
+head[26]     LIFO|CLK      FD       D       head_s[26]     8.562        -1.434
+head[25]     LIFO|CLK      FD       D       head_s[25]     8.562        -1.393
+head[24]     LIFO|CLK      FD       D       head_s[24]     8.562        -1.353
+head[23]     LIFO|CLK      FD       D       head_s[23]     8.562        -1.312
+head[22]     LIFO|CLK      FD       D       head_s[22]     8.562        -1.272
+==============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      9.271
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.562
+
+    - Propagation time:                      10.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.636
+
+    Number of logic level(s):                36
+    Starting point:                          head[3] / Q
+    Ending point:                            head[31] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+head[3]               FD          Q        Out     1.085     1.085       -         
+head[3]               Net         -        -       0.926     -           2         
+head_RNIADH21[15]     LUT4        I0       In      -         2.011       -         
+head_RNIADH21[15]     LUT4        O        Out     0.548     2.559       -         
+G_6_i_a2_0_19         Net         -        -       0.525     -           1         
+head_RNI3F303[10]     LUT4        I3       In      -         3.084       -         
+head_RNI3F303[10]     LUT4        O        Out     0.548     3.632       -         
+G_6_i_a2_0_25         Net         -        -       1.024     -           3         
+head_RNIJPRJ4[31]     LUT4        I1       In      -         4.656       -         
+head_RNIJPRJ4[31]     LUT4        O        Out     0.548     5.204       -         
+head_0                Net         -        -       2.129     -           63        
+head_qxu[0]           LUT2        I1       In      -         7.333       -         
+head_qxu[0]           LUT2        O        Out     0.548     7.881       -         
+head_qxu[0]           Net         -        -       0.000     -           2         
+head_cry[0]           MUXCY_L     S        In      -         7.881       -         
+head_cry[0]           MUXCY_L     LO       Out     0.643     8.524       -         
+head_cry[0]           Net         -        -       0.000     -           2         
+head_cry[1]           MUXCY_L     CI       In      -         8.524       -         
+head_cry[1]           MUXCY_L     LO       Out     0.041     8.564       -         
+head_cry[1]           Net         -        -       0.000     -           2         
+head_cry[2]           MUXCY_L     CI       In      -         8.564       -         
+head_cry[2]           MUXCY_L     LO       Out     0.041     8.605       -         
+head_cry[2]           Net         -        -       0.000     -           2         
+head_cry[3]           MUXCY_L     CI       In      -         8.605       -         
+head_cry[3]           MUXCY_L     LO       Out     0.041     8.645       -         
+head_cry[3]           Net         -        -       0.000     -           2         
+head_cry[4]           MUXCY_L     CI       In      -         8.645       -         
+head_cry[4]           MUXCY_L     LO       Out     0.041     8.686       -         
+head_cry[4]           Net         -        -       0.000     -           2         
+head_cry[5]           MUXCY_L     CI       In      -         8.686       -         
+head_cry[5]           MUXCY_L     LO       Out     0.041     8.726       -         
+head_cry[5]           Net         -        -       0.000     -           2         
+head_cry[6]           MUXCY_L     CI       In      -         8.726       -         
+head_cry[6]           MUXCY_L     LO       Out     0.041     8.767       -         
+head_cry[6]           Net         -        -       0.000     -           2         
+head_cry[7]           MUXCY_L     CI       In      -         8.767       -         
+head_cry[7]           MUXCY_L     LO       Out     0.041     8.807       -         
+head_cry[7]           Net         -        -       0.000     -           2         
+head_cry[8]           MUXCY_L     CI       In      -         8.807       -         
+head_cry[8]           MUXCY_L     LO       Out     0.041     8.848       -         
+head_cry[8]           Net         -        -       0.000     -           2         
+head_cry[9]           MUXCY_L     CI       In      -         8.848       -         
+head_cry[9]           MUXCY_L     LO       Out     0.041     8.888       -         
+head_cry[9]           Net         -        -       0.000     -           2         
+head_cry[10]          MUXCY_L     CI       In      -         8.888       -         
+head_cry[10]          MUXCY_L     LO       Out     0.041     8.929       -         
+head_cry[10]          Net         -        -       0.000     -           2         
+head_cry[11]          MUXCY_L     CI       In      -         8.929       -         
+head_cry[11]          MUXCY_L     LO       Out     0.041     8.969       -         
+head_cry[11]          Net         -        -       0.000     -           2         
+head_cry[12]          MUXCY_L     CI       In      -         8.969       -         
+head_cry[12]          MUXCY_L     LO       Out     0.041     9.010       -         
+head_cry[12]          Net         -        -       0.000     -           2         
+head_cry[13]          MUXCY_L     CI       In      -         9.010       -         
+head_cry[13]          MUXCY_L     LO       Out     0.041     9.050       -         
+head_cry[13]          Net         -        -       0.000     -           2         
+head_cry[14]          MUXCY_L     CI       In      -         9.050       -         
+head_cry[14]          MUXCY_L     LO       Out     0.041     9.091       -         
+head_cry[14]          Net         -        -       0.000     -           2         
+head_cry[15]          MUXCY_L     CI       In      -         9.091       -         
+head_cry[15]          MUXCY_L     LO       Out     0.041     9.131       -         
+head_cry[15]          Net         -        -       0.000     -           2         
+head_cry[16]          MUXCY_L     CI       In      -         9.131       -         
+head_cry[16]          MUXCY_L     LO       Out     0.041     9.172       -         
+head_cry[16]          Net         -        -       0.000     -           2         
+head_cry[17]          MUXCY_L     CI       In      -         9.172       -         
+head_cry[17]          MUXCY_L     LO       Out     0.041     9.212       -         
+head_cry[17]          Net         -        -       0.000     -           2         
+head_cry[18]          MUXCY_L     CI       In      -         9.212       -         
+head_cry[18]          MUXCY_L     LO       Out     0.041     9.253       -         
+head_cry[18]          Net         -        -       0.000     -           2         
+head_cry[19]          MUXCY_L     CI       In      -         9.253       -         
+head_cry[19]          MUXCY_L     LO       Out     0.041     9.293       -         
+head_cry[19]          Net         -        -       0.000     -           2         
+head_cry[20]          MUXCY_L     CI       In      -         9.293       -         
+head_cry[20]          MUXCY_L     LO       Out     0.041     9.334       -         
+head_cry[20]          Net         -        -       0.000     -           2         
+head_cry[21]          MUXCY_L     CI       In      -         9.334       -         
+head_cry[21]          MUXCY_L     LO       Out     0.041     9.374       -         
+head_cry[21]          Net         -        -       0.000     -           2         
+head_cry[22]          MUXCY_L     CI       In      -         9.374       -         
+head_cry[22]          MUXCY_L     LO       Out     0.041     9.415       -         
+head_cry[22]          Net         -        -       0.000     -           2         
+head_cry[23]          MUXCY_L     CI       In      -         9.415       -         
+head_cry[23]          MUXCY_L     LO       Out     0.041     9.455       -         
+head_cry[23]          Net         -        -       0.000     -           2         
+head_cry[24]          MUXCY_L     CI       In      -         9.455       -         
+head_cry[24]          MUXCY_L     LO       Out     0.041     9.496       -         
+head_cry[24]          Net         -        -       0.000     -           2         
+head_cry[25]          MUXCY_L     CI       In      -         9.496       -         
+head_cry[25]          MUXCY_L     LO       Out     0.041     9.536       -         
+head_cry[25]          Net         -        -       0.000     -           2         
+head_cry[26]          MUXCY_L     CI       In      -         9.536       -         
+head_cry[26]          MUXCY_L     LO       Out     0.041     9.577       -         
+head_cry[26]          Net         -        -       0.000     -           2         
+head_cry[27]          MUXCY_L     CI       In      -         9.577       -         
+head_cry[27]          MUXCY_L     LO       Out     0.041     9.617       -         
+head_cry[27]          Net         -        -       0.000     -           2         
+head_cry[28]          MUXCY_L     CI       In      -         9.617       -         
+head_cry[28]          MUXCY_L     LO       Out     0.041     9.658       -         
+head_cry[28]          Net         -        -       0.000     -           2         
+head_cry[29]          MUXCY_L     CI       In      -         9.658       -         
+head_cry[29]          MUXCY_L     LO       Out     0.041     9.698       -         
+head_cry[29]          Net         -        -       0.000     -           2         
+head_cry[30]          MUXCY_L     CI       In      -         9.698       -         
+head_cry[30]          MUXCY_L     LO       Out     0.041     9.739       -         
+head_cry[30]          Net         -        -       0.000     -           1         
+head_s[31]            XORCY       CI       In      -         9.739       -         
+head_s[31]            XORCY       O        Out     0.459     10.198      -         
+head_s[31]            Net         -        -       0.000     -           1         
+head[31]              FD          D        In      -         10.198      -         
+===================================================================================
+Total path delay (propagation time + setup) of 10.907 is 6.303(57.8%) logic and 4.604(42.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      9.271
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.562
+
+    - Propagation time:                      10.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.636
+
+    Number of logic level(s):                36
+    Starting point:                          head[4] / Q
+    Ending point:                            head[31] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+head[4]               FD          Q        Out     1.085     1.085       -         
+head[4]               Net         -        -       0.926     -           2         
+head_RNIADH21[15]     LUT4        I1       In      -         2.011       -         
+head_RNIADH21[15]     LUT4        O        Out     0.548     2.559       -         
+G_6_i_a2_0_19         Net         -        -       0.525     -           1         
+head_RNI3F303[10]     LUT4        I3       In      -         3.084       -         
+head_RNI3F303[10]     LUT4        O        Out     0.548     3.632       -         
+G_6_i_a2_0_25         Net         -        -       1.024     -           3         
+head_RNIJPRJ4[31]     LUT4        I1       In      -         4.656       -         
+head_RNIJPRJ4[31]     LUT4        O        Out     0.548     5.204       -         
+head_0                Net         -        -       2.129     -           63        
+head_qxu[0]           LUT2        I1       In      -         7.333       -         
+head_qxu[0]           LUT2        O        Out     0.548     7.881       -         
+head_qxu[0]           Net         -        -       0.000     -           2         
+head_cry[0]           MUXCY_L     S        In      -         7.881       -         
+head_cry[0]           MUXCY_L     LO       Out     0.643     8.524       -         
+head_cry[0]           Net         -        -       0.000     -           2         
+head_cry[1]           MUXCY_L     CI       In      -         8.524       -         
+head_cry[1]           MUXCY_L     LO       Out     0.041     8.564       -         
+head_cry[1]           Net         -        -       0.000     -           2         
+head_cry[2]           MUXCY_L     CI       In      -         8.564       -         
+head_cry[2]           MUXCY_L     LO       Out     0.041     8.605       -         
+head_cry[2]           Net         -        -       0.000     -           2         
+head_cry[3]           MUXCY_L     CI       In      -         8.605       -         
+head_cry[3]           MUXCY_L     LO       Out     0.041     8.645       -         
+head_cry[3]           Net         -        -       0.000     -           2         
+head_cry[4]           MUXCY_L     CI       In      -         8.645       -         
+head_cry[4]           MUXCY_L     LO       Out     0.041     8.686       -         
+head_cry[4]           Net         -        -       0.000     -           2         
+head_cry[5]           MUXCY_L     CI       In      -         8.686       -         
+head_cry[5]           MUXCY_L     LO       Out     0.041     8.726       -         
+head_cry[5]           Net         -        -       0.000     -           2         
+head_cry[6]           MUXCY_L     CI       In      -         8.726       -         
+head_cry[6]           MUXCY_L     LO       Out     0.041     8.767       -         
+head_cry[6]           Net         -        -       0.000     -           2         
+head_cry[7]           MUXCY_L     CI       In      -         8.767       -         
+head_cry[7]           MUXCY_L     LO       Out     0.041     8.807       -         
+head_cry[7]           Net         -        -       0.000     -           2         
+head_cry[8]           MUXCY_L     CI       In      -         8.807       -         
+head_cry[8]           MUXCY_L     LO       Out     0.041     8.848       -         
+head_cry[8]           Net         -        -       0.000     -           2         
+head_cry[9]           MUXCY_L     CI       In      -         8.848       -         
+head_cry[9]           MUXCY_L     LO       Out     0.041     8.888       -         
+head_cry[9]           Net         -        -       0.000     -           2         
+head_cry[10]          MUXCY_L     CI       In      -         8.888       -         
+head_cry[10]          MUXCY_L     LO       Out     0.041     8.929       -         
+head_cry[10]          Net         -        -       0.000     -           2         
+head_cry[11]          MUXCY_L     CI       In      -         8.929       -         
+head_cry[11]          MUXCY_L     LO       Out     0.041     8.969       -         
+head_cry[11]          Net         -        -       0.000     -           2         
+head_cry[12]          MUXCY_L     CI       In      -         8.969       -         
+head_cry[12]          MUXCY_L     LO       Out     0.041     9.010       -         
+head_cry[12]          Net         -        -       0.000     -           2         
+head_cry[13]          MUXCY_L     CI       In      -         9.010       -         
+head_cry[13]          MUXCY_L     LO       Out     0.041     9.050       -         
+head_cry[13]          Net         -        -       0.000     -           2         
+head_cry[14]          MUXCY_L     CI       In      -         9.050       -         
+head_cry[14]          MUXCY_L     LO       Out     0.041     9.091       -         
+head_cry[14]          Net         -        -       0.000     -           2         
+head_cry[15]          MUXCY_L     CI       In      -         9.091       -         
+head_cry[15]          MUXCY_L     LO       Out     0.041     9.131       -         
+head_cry[15]          Net         -        -       0.000     -           2         
+head_cry[16]          MUXCY_L     CI       In      -         9.131       -         
+head_cry[16]          MUXCY_L     LO       Out     0.041     9.172       -         
+head_cry[16]          Net         -        -       0.000     -           2         
+head_cry[17]          MUXCY_L     CI       In      -         9.172       -         
+head_cry[17]          MUXCY_L     LO       Out     0.041     9.212       -         
+head_cry[17]          Net         -        -       0.000     -           2         
+head_cry[18]          MUXCY_L     CI       In      -         9.212       -         
+head_cry[18]          MUXCY_L     LO       Out     0.041     9.253       -         
+head_cry[18]          Net         -        -       0.000     -           2         
+head_cry[19]          MUXCY_L     CI       In      -         9.253       -         
+head_cry[19]          MUXCY_L     LO       Out     0.041     9.293       -         
+head_cry[19]          Net         -        -       0.000     -           2         
+head_cry[20]          MUXCY_L     CI       In      -         9.293       -         
+head_cry[20]          MUXCY_L     LO       Out     0.041     9.334       -         
+head_cry[20]          Net         -        -       0.000     -           2         
+head_cry[21]          MUXCY_L     CI       In      -         9.334       -         
+head_cry[21]          MUXCY_L     LO       Out     0.041     9.374       -         
+head_cry[21]          Net         -        -       0.000     -           2         
+head_cry[22]          MUXCY_L     CI       In      -         9.374       -         
+head_cry[22]          MUXCY_L     LO       Out     0.041     9.415       -         
+head_cry[22]          Net         -        -       0.000     -           2         
+head_cry[23]          MUXCY_L     CI       In      -         9.415       -         
+head_cry[23]          MUXCY_L     LO       Out     0.041     9.455       -         
+head_cry[23]          Net         -        -       0.000     -           2         
+head_cry[24]          MUXCY_L     CI       In      -         9.455       -         
+head_cry[24]          MUXCY_L     LO       Out     0.041     9.496       -         
+head_cry[24]          Net         -        -       0.000     -           2         
+head_cry[25]          MUXCY_L     CI       In      -         9.496       -         
+head_cry[25]          MUXCY_L     LO       Out     0.041     9.536       -         
+head_cry[25]          Net         -        -       0.000     -           2         
+head_cry[26]          MUXCY_L     CI       In      -         9.536       -         
+head_cry[26]          MUXCY_L     LO       Out     0.041     9.577       -         
+head_cry[26]          Net         -        -       0.000     -           2         
+head_cry[27]          MUXCY_L     CI       In      -         9.577       -         
+head_cry[27]          MUXCY_L     LO       Out     0.041     9.617       -         
+head_cry[27]          Net         -        -       0.000     -           2         
+head_cry[28]          MUXCY_L     CI       In      -         9.617       -         
+head_cry[28]          MUXCY_L     LO       Out     0.041     9.658       -         
+head_cry[28]          Net         -        -       0.000     -           2         
+head_cry[29]          MUXCY_L     CI       In      -         9.658       -         
+head_cry[29]          MUXCY_L     LO       Out     0.041     9.698       -         
+head_cry[29]          Net         -        -       0.000     -           2         
+head_cry[30]          MUXCY_L     CI       In      -         9.698       -         
+head_cry[30]          MUXCY_L     LO       Out     0.041     9.739       -         
+head_cry[30]          Net         -        -       0.000     -           1         
+head_s[31]            XORCY       CI       In      -         9.739       -         
+head_s[31]            XORCY       O        Out     0.459     10.198      -         
+head_s[31]            Net         -        -       0.000     -           1         
+head[31]              FD          D        In      -         10.198      -         
+===================================================================================
+Total path delay (propagation time + setup) of 10.907 is 6.303(57.8%) logic and 4.604(42.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      9.271
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.562
+
+    - Propagation time:                      10.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.636
+
+    Number of logic level(s):                36
+    Starting point:                          head[5] / Q
+    Ending point:                            head[31] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+head[5]               FD          Q        Out     1.085     1.085       -         
+head[5]               Net         -        -       0.926     -           2         
+head_RNIADH21[15]     LUT4        I2       In      -         2.011       -         
+head_RNIADH21[15]     LUT4        O        Out     0.548     2.559       -         
+G_6_i_a2_0_19         Net         -        -       0.525     -           1         
+head_RNI3F303[10]     LUT4        I3       In      -         3.084       -         
+head_RNI3F303[10]     LUT4        O        Out     0.548     3.632       -         
+G_6_i_a2_0_25         Net         -        -       1.024     -           3         
+head_RNIJPRJ4[31]     LUT4        I1       In      -         4.656       -         
+head_RNIJPRJ4[31]     LUT4        O        Out     0.548     5.204       -         
+head_0                Net         -        -       2.129     -           63        
+head_qxu[0]           LUT2        I1       In      -         7.333       -         
+head_qxu[0]           LUT2        O        Out     0.548     7.881       -         
+head_qxu[0]           Net         -        -       0.000     -           2         
+head_cry[0]           MUXCY_L     S        In      -         7.881       -         
+head_cry[0]           MUXCY_L     LO       Out     0.643     8.524       -         
+head_cry[0]           Net         -        -       0.000     -           2         
+head_cry[1]           MUXCY_L     CI       In      -         8.524       -         
+head_cry[1]           MUXCY_L     LO       Out     0.041     8.564       -         
+head_cry[1]           Net         -        -       0.000     -           2         
+head_cry[2]           MUXCY_L     CI       In      -         8.564       -         
+head_cry[2]           MUXCY_L     LO       Out     0.041     8.605       -         
+head_cry[2]           Net         -        -       0.000     -           2         
+head_cry[3]           MUXCY_L     CI       In      -         8.605       -         
+head_cry[3]           MUXCY_L     LO       Out     0.041     8.645       -         
+head_cry[3]           Net         -        -       0.000     -           2         
+head_cry[4]           MUXCY_L     CI       In      -         8.645       -         
+head_cry[4]           MUXCY_L     LO       Out     0.041     8.686       -         
+head_cry[4]           Net         -        -       0.000     -           2         
+head_cry[5]           MUXCY_L     CI       In      -         8.686       -         
+head_cry[5]           MUXCY_L     LO       Out     0.041     8.726       -         
+head_cry[5]           Net         -        -       0.000     -           2         
+head_cry[6]           MUXCY_L     CI       In      -         8.726       -         
+head_cry[6]           MUXCY_L     LO       Out     0.041     8.767       -         
+head_cry[6]           Net         -        -       0.000     -           2         
+head_cry[7]           MUXCY_L     CI       In      -         8.767       -         
+head_cry[7]           MUXCY_L     LO       Out     0.041     8.807       -         
+head_cry[7]           Net         -        -       0.000     -           2         
+head_cry[8]           MUXCY_L     CI       In      -         8.807       -         
+head_cry[8]           MUXCY_L     LO       Out     0.041     8.848       -         
+head_cry[8]           Net         -        -       0.000     -           2         
+head_cry[9]           MUXCY_L     CI       In      -         8.848       -         
+head_cry[9]           MUXCY_L     LO       Out     0.041     8.888       -         
+head_cry[9]           Net         -        -       0.000     -           2         
+head_cry[10]          MUXCY_L     CI       In      -         8.888       -         
+head_cry[10]          MUXCY_L     LO       Out     0.041     8.929       -         
+head_cry[10]          Net         -        -       0.000     -           2         
+head_cry[11]          MUXCY_L     CI       In      -         8.929       -         
+head_cry[11]          MUXCY_L     LO       Out     0.041     8.969       -         
+head_cry[11]          Net         -        -       0.000     -           2         
+head_cry[12]          MUXCY_L     CI       In      -         8.969       -         
+head_cry[12]          MUXCY_L     LO       Out     0.041     9.010       -         
+head_cry[12]          Net         -        -       0.000     -           2         
+head_cry[13]          MUXCY_L     CI       In      -         9.010       -         
+head_cry[13]          MUXCY_L     LO       Out     0.041     9.050       -         
+head_cry[13]          Net         -        -       0.000     -           2         
+head_cry[14]          MUXCY_L     CI       In      -         9.050       -         
+head_cry[14]          MUXCY_L     LO       Out     0.041     9.091       -         
+head_cry[14]          Net         -        -       0.000     -           2         
+head_cry[15]          MUXCY_L     CI       In      -         9.091       -         
+head_cry[15]          MUXCY_L     LO       Out     0.041     9.131       -         
+head_cry[15]          Net         -        -       0.000     -           2         
+head_cry[16]          MUXCY_L     CI       In      -         9.131       -         
+head_cry[16]          MUXCY_L     LO       Out     0.041     9.172       -         
+head_cry[16]          Net         -        -       0.000     -           2         
+head_cry[17]          MUXCY_L     CI       In      -         9.172       -         
+head_cry[17]          MUXCY_L     LO       Out     0.041     9.212       -         
+head_cry[17]          Net         -        -       0.000     -           2         
+head_cry[18]          MUXCY_L     CI       In      -         9.212       -         
+head_cry[18]          MUXCY_L     LO       Out     0.041     9.253       -         
+head_cry[18]          Net         -        -       0.000     -           2         
+head_cry[19]          MUXCY_L     CI       In      -         9.253       -         
+head_cry[19]          MUXCY_L     LO       Out     0.041     9.293       -         
+head_cry[19]          Net         -        -       0.000     -           2         
+head_cry[20]          MUXCY_L     CI       In      -         9.293       -         
+head_cry[20]          MUXCY_L     LO       Out     0.041     9.334       -         
+head_cry[20]          Net         -        -       0.000     -           2         
+head_cry[21]          MUXCY_L     CI       In      -         9.334       -         
+head_cry[21]          MUXCY_L     LO       Out     0.041     9.374       -         
+head_cry[21]          Net         -        -       0.000     -           2         
+head_cry[22]          MUXCY_L     CI       In      -         9.374       -         
+head_cry[22]          MUXCY_L     LO       Out     0.041     9.415       -         
+head_cry[22]          Net         -        -       0.000     -           2         
+head_cry[23]          MUXCY_L     CI       In      -         9.415       -         
+head_cry[23]          MUXCY_L     LO       Out     0.041     9.455       -         
+head_cry[23]          Net         -        -       0.000     -           2         
+head_cry[24]          MUXCY_L     CI       In      -         9.455       -         
+head_cry[24]          MUXCY_L     LO       Out     0.041     9.496       -         
+head_cry[24]          Net         -        -       0.000     -           2         
+head_cry[25]          MUXCY_L     CI       In      -         9.496       -         
+head_cry[25]          MUXCY_L     LO       Out     0.041     9.536       -         
+head_cry[25]          Net         -        -       0.000     -           2         
+head_cry[26]          MUXCY_L     CI       In      -         9.536       -         
+head_cry[26]          MUXCY_L     LO       Out     0.041     9.577       -         
+head_cry[26]          Net         -        -       0.000     -           2         
+head_cry[27]          MUXCY_L     CI       In      -         9.577       -         
+head_cry[27]          MUXCY_L     LO       Out     0.041     9.617       -         
+head_cry[27]          Net         -        -       0.000     -           2         
+head_cry[28]          MUXCY_L     CI       In      -         9.617       -         
+head_cry[28]          MUXCY_L     LO       Out     0.041     9.658       -         
+head_cry[28]          Net         -        -       0.000     -           2         
+head_cry[29]          MUXCY_L     CI       In      -         9.658       -         
+head_cry[29]          MUXCY_L     LO       Out     0.041     9.698       -         
+head_cry[29]          Net         -        -       0.000     -           2         
+head_cry[30]          MUXCY_L     CI       In      -         9.698       -         
+head_cry[30]          MUXCY_L     LO       Out     0.041     9.739       -         
+head_cry[30]          Net         -        -       0.000     -           1         
+head_s[31]            XORCY       CI       In      -         9.739       -         
+head_s[31]            XORCY       O        Out     0.459     10.198      -         
+head_s[31]            Net         -        -       0.000     -           1         
+head[31]              FD          D        In      -         10.198      -         
+===================================================================================
+Total path delay (propagation time + setup) of 10.907 is 6.303(57.8%) logic and 4.604(42.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      9.271
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.562
+
+    - Propagation time:                      10.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.636
+
+    Number of logic level(s):                36
+    Starting point:                          head[6] / Q
+    Ending point:                            head[31] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+head[6]               FD          Q        Out     1.085     1.085       -         
+head[6]               Net         -        -       0.926     -           2         
+head_RNIOQ3Q[10]      LUT4        I0       In      -         2.011       -         
+head_RNIOQ3Q[10]      LUT4        O        Out     0.548     2.559       -         
+G_6_i_a2_0_16         Net         -        -       0.525     -           1         
+head_RNI3F303[10]     LUT4        I0       In      -         3.084       -         
+head_RNI3F303[10]     LUT4        O        Out     0.548     3.632       -         
+G_6_i_a2_0_25         Net         -        -       1.024     -           3         
+head_RNIJPRJ4[31]     LUT4        I1       In      -         4.656       -         
+head_RNIJPRJ4[31]     LUT4        O        Out     0.548     5.204       -         
+head_0                Net         -        -       2.129     -           63        
+head_qxu[0]           LUT2        I1       In      -         7.333       -         
+head_qxu[0]           LUT2        O        Out     0.548     7.881       -         
+head_qxu[0]           Net         -        -       0.000     -           2         
+head_cry[0]           MUXCY_L     S        In      -         7.881       -         
+head_cry[0]           MUXCY_L     LO       Out     0.643     8.524       -         
+head_cry[0]           Net         -        -       0.000     -           2         
+head_cry[1]           MUXCY_L     CI       In      -         8.524       -         
+head_cry[1]           MUXCY_L     LO       Out     0.041     8.564       -         
+head_cry[1]           Net         -        -       0.000     -           2         
+head_cry[2]           MUXCY_L     CI       In      -         8.564       -         
+head_cry[2]           MUXCY_L     LO       Out     0.041     8.605       -         
+head_cry[2]           Net         -        -       0.000     -           2         
+head_cry[3]           MUXCY_L     CI       In      -         8.605       -         
+head_cry[3]           MUXCY_L     LO       Out     0.041     8.645       -         
+head_cry[3]           Net         -        -       0.000     -           2         
+head_cry[4]           MUXCY_L     CI       In      -         8.645       -         
+head_cry[4]           MUXCY_L     LO       Out     0.041     8.686       -         
+head_cry[4]           Net         -        -       0.000     -           2         
+head_cry[5]           MUXCY_L     CI       In      -         8.686       -         
+head_cry[5]           MUXCY_L     LO       Out     0.041     8.726       -         
+head_cry[5]           Net         -        -       0.000     -           2         
+head_cry[6]           MUXCY_L     CI       In      -         8.726       -         
+head_cry[6]           MUXCY_L     LO       Out     0.041     8.767       -         
+head_cry[6]           Net         -        -       0.000     -           2         
+head_cry[7]           MUXCY_L     CI       In      -         8.767       -         
+head_cry[7]           MUXCY_L     LO       Out     0.041     8.807       -         
+head_cry[7]           Net         -        -       0.000     -           2         
+head_cry[8]           MUXCY_L     CI       In      -         8.807       -         
+head_cry[8]           MUXCY_L     LO       Out     0.041     8.848       -         
+head_cry[8]           Net         -        -       0.000     -           2         
+head_cry[9]           MUXCY_L     CI       In      -         8.848       -         
+head_cry[9]           MUXCY_L     LO       Out     0.041     8.888       -         
+head_cry[9]           Net         -        -       0.000     -           2         
+head_cry[10]          MUXCY_L     CI       In      -         8.888       -         
+head_cry[10]          MUXCY_L     LO       Out     0.041     8.929       -         
+head_cry[10]          Net         -        -       0.000     -           2         
+head_cry[11]          MUXCY_L     CI       In      -         8.929       -         
+head_cry[11]          MUXCY_L     LO       Out     0.041     8.969       -         
+head_cry[11]          Net         -        -       0.000     -           2         
+head_cry[12]          MUXCY_L     CI       In      -         8.969       -         
+head_cry[12]          MUXCY_L     LO       Out     0.041     9.010       -         
+head_cry[12]          Net         -        -       0.000     -           2         
+head_cry[13]          MUXCY_L     CI       In      -         9.010       -         
+head_cry[13]          MUXCY_L     LO       Out     0.041     9.050       -         
+head_cry[13]          Net         -        -       0.000     -           2         
+head_cry[14]          MUXCY_L     CI       In      -         9.050       -         
+head_cry[14]          MUXCY_L     LO       Out     0.041     9.091       -         
+head_cry[14]          Net         -        -       0.000     -           2         
+head_cry[15]          MUXCY_L     CI       In      -         9.091       -         
+head_cry[15]          MUXCY_L     LO       Out     0.041     9.131       -         
+head_cry[15]          Net         -        -       0.000     -           2         
+head_cry[16]          MUXCY_L     CI       In      -         9.131       -         
+head_cry[16]          MUXCY_L     LO       Out     0.041     9.172       -         
+head_cry[16]          Net         -        -       0.000     -           2         
+head_cry[17]          MUXCY_L     CI       In      -         9.172       -         
+head_cry[17]          MUXCY_L     LO       Out     0.041     9.212       -         
+head_cry[17]          Net         -        -       0.000     -           2         
+head_cry[18]          MUXCY_L     CI       In      -         9.212       -         
+head_cry[18]          MUXCY_L     LO       Out     0.041     9.253       -         
+head_cry[18]          Net         -        -       0.000     -           2         
+head_cry[19]          MUXCY_L     CI       In      -         9.253       -         
+head_cry[19]          MUXCY_L     LO       Out     0.041     9.293       -         
+head_cry[19]          Net         -        -       0.000     -           2         
+head_cry[20]          MUXCY_L     CI       In      -         9.293       -         
+head_cry[20]          MUXCY_L     LO       Out     0.041     9.334       -         
+head_cry[20]          Net         -        -       0.000     -           2         
+head_cry[21]          MUXCY_L     CI       In      -         9.334       -         
+head_cry[21]          MUXCY_L     LO       Out     0.041     9.374       -         
+head_cry[21]          Net         -        -       0.000     -           2         
+head_cry[22]          MUXCY_L     CI       In      -         9.374       -         
+head_cry[22]          MUXCY_L     LO       Out     0.041     9.415       -         
+head_cry[22]          Net         -        -       0.000     -           2         
+head_cry[23]          MUXCY_L     CI       In      -         9.415       -         
+head_cry[23]          MUXCY_L     LO       Out     0.041     9.455       -         
+head_cry[23]          Net         -        -       0.000     -           2         
+head_cry[24]          MUXCY_L     CI       In      -         9.455       -         
+head_cry[24]          MUXCY_L     LO       Out     0.041     9.496       -         
+head_cry[24]          Net         -        -       0.000     -           2         
+head_cry[25]          MUXCY_L     CI       In      -         9.496       -         
+head_cry[25]          MUXCY_L     LO       Out     0.041     9.536       -         
+head_cry[25]          Net         -        -       0.000     -           2         
+head_cry[26]          MUXCY_L     CI       In      -         9.536       -         
+head_cry[26]          MUXCY_L     LO       Out     0.041     9.577       -         
+head_cry[26]          Net         -        -       0.000     -           2         
+head_cry[27]          MUXCY_L     CI       In      -         9.577       -         
+head_cry[27]          MUXCY_L     LO       Out     0.041     9.617       -         
+head_cry[27]          Net         -        -       0.000     -           2         
+head_cry[28]          MUXCY_L     CI       In      -         9.617       -         
+head_cry[28]          MUXCY_L     LO       Out     0.041     9.658       -         
+head_cry[28]          Net         -        -       0.000     -           2         
+head_cry[29]          MUXCY_L     CI       In      -         9.658       -         
+head_cry[29]          MUXCY_L     LO       Out     0.041     9.698       -         
+head_cry[29]          Net         -        -       0.000     -           2         
+head_cry[30]          MUXCY_L     CI       In      -         9.698       -         
+head_cry[30]          MUXCY_L     LO       Out     0.041     9.739       -         
+head_cry[30]          Net         -        -       0.000     -           1         
+head_s[31]            XORCY       CI       In      -         9.739       -         
+head_s[31]            XORCY       O        Out     0.459     10.198      -         
+head_s[31]            Net         -        -       0.000     -           1         
+head[31]              FD          D        In      -         10.198      -         
+===================================================================================
+Total path delay (propagation time + setup) of 10.907 is 6.303(57.8%) logic and 4.604(42.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      9.271
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.562
+
+    - Propagation time:                      10.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.636
+
+    Number of logic level(s):                36
+    Starting point:                          head[7] / Q
+    Ending point:                            head[31] / D
+    The start point is clocked by            LIFO|CLK [rising] on pin C
+    The end   point is clocked by            LIFO|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+head[7]               FD          Q        Out     1.085     1.085       -         
+head[7]               Net         -        -       0.926     -           2         
+head_RNIOQ3Q[10]      LUT4        I1       In      -         2.011       -         
+head_RNIOQ3Q[10]      LUT4        O        Out     0.548     2.559       -         
+G_6_i_a2_0_16         Net         -        -       0.525     -           1         
+head_RNI3F303[10]     LUT4        I0       In      -         3.084       -         
+head_RNI3F303[10]     LUT4        O        Out     0.548     3.632       -         
+G_6_i_a2_0_25         Net         -        -       1.024     -           3         
+head_RNIJPRJ4[31]     LUT4        I1       In      -         4.656       -         
+head_RNIJPRJ4[31]     LUT4        O        Out     0.548     5.204       -         
+head_0                Net         -        -       2.129     -           63        
+head_qxu[0]           LUT2        I1       In      -         7.333       -         
+head_qxu[0]           LUT2        O        Out     0.548     7.881       -         
+head_qxu[0]           Net         -        -       0.000     -           2         
+head_cry[0]           MUXCY_L     S        In      -         7.881       -         
+head_cry[0]           MUXCY_L     LO       Out     0.643     8.524       -         
+head_cry[0]           Net         -        -       0.000     -           2         
+head_cry[1]           MUXCY_L     CI       In      -         8.524       -         
+head_cry[1]           MUXCY_L     LO       Out     0.041     8.564       -         
+head_cry[1]           Net         -        -       0.000     -           2         
+head_cry[2]           MUXCY_L     CI       In      -         8.564       -         
+head_cry[2]           MUXCY_L     LO       Out     0.041     8.605       -         
+head_cry[2]           Net         -        -       0.000     -           2         
+head_cry[3]           MUXCY_L     CI       In      -         8.605       -         
+head_cry[3]           MUXCY_L     LO       Out     0.041     8.645       -         
+head_cry[3]           Net         -        -       0.000     -           2         
+head_cry[4]           MUXCY_L     CI       In      -         8.645       -         
+head_cry[4]           MUXCY_L     LO       Out     0.041     8.686       -         
+head_cry[4]           Net         -        -       0.000     -           2         
+head_cry[5]           MUXCY_L     CI       In      -         8.686       -         
+head_cry[5]           MUXCY_L     LO       Out     0.041     8.726       -         
+head_cry[5]           Net         -        -       0.000     -           2         
+head_cry[6]           MUXCY_L     CI       In      -         8.726       -         
+head_cry[6]           MUXCY_L     LO       Out     0.041     8.767       -         
+head_cry[6]           Net         -        -       0.000     -           2         
+head_cry[7]           MUXCY_L     CI       In      -         8.767       -         
+head_cry[7]           MUXCY_L     LO       Out     0.041     8.807       -         
+head_cry[7]           Net         -        -       0.000     -           2         
+head_cry[8]           MUXCY_L     CI       In      -         8.807       -         
+head_cry[8]           MUXCY_L     LO       Out     0.041     8.848       -         
+head_cry[8]           Net         -        -       0.000     -           2         
+head_cry[9]           MUXCY_L     CI       In      -         8.848       -         
+head_cry[9]           MUXCY_L     LO       Out     0.041     8.888       -         
+head_cry[9]           Net         -        -       0.000     -           2         
+head_cry[10]          MUXCY_L     CI       In      -         8.888       -         
+head_cry[10]          MUXCY_L     LO       Out     0.041     8.929       -         
+head_cry[10]          Net         -        -       0.000     -           2         
+head_cry[11]          MUXCY_L     CI       In      -         8.929       -         
+head_cry[11]          MUXCY_L     LO       Out     0.041     8.969       -         
+head_cry[11]          Net         -        -       0.000     -           2         
+head_cry[12]          MUXCY_L     CI       In      -         8.969       -         
+head_cry[12]          MUXCY_L     LO       Out     0.041     9.010       -         
+head_cry[12]          Net         -        -       0.000     -           2         
+head_cry[13]          MUXCY_L     CI       In      -         9.010       -         
+head_cry[13]          MUXCY_L     LO       Out     0.041     9.050       -         
+head_cry[13]          Net         -        -       0.000     -           2         
+head_cry[14]          MUXCY_L     CI       In      -         9.050       -         
+head_cry[14]          MUXCY_L     LO       Out     0.041     9.091       -         
+head_cry[14]          Net         -        -       0.000     -           2         
+head_cry[15]          MUXCY_L     CI       In      -         9.091       -         
+head_cry[15]          MUXCY_L     LO       Out     0.041     9.131       -         
+head_cry[15]          Net         -        -       0.000     -           2         
+head_cry[16]          MUXCY_L     CI       In      -         9.131       -         
+head_cry[16]          MUXCY_L     LO       Out     0.041     9.172       -         
+head_cry[16]          Net         -        -       0.000     -           2         
+head_cry[17]          MUXCY_L     CI       In      -         9.172       -         
+head_cry[17]          MUXCY_L     LO       Out     0.041     9.212       -         
+head_cry[17]          Net         -        -       0.000     -           2         
+head_cry[18]          MUXCY_L     CI       In      -         9.212       -         
+head_cry[18]          MUXCY_L     LO       Out     0.041     9.253       -         
+head_cry[18]          Net         -        -       0.000     -           2         
+head_cry[19]          MUXCY_L     CI       In      -         9.253       -         
+head_cry[19]          MUXCY_L     LO       Out     0.041     9.293       -         
+head_cry[19]          Net         -        -       0.000     -           2         
+head_cry[20]          MUXCY_L     CI       In      -         9.293       -         
+head_cry[20]          MUXCY_L     LO       Out     0.041     9.334       -         
+head_cry[20]          Net         -        -       0.000     -           2         
+head_cry[21]          MUXCY_L     CI       In      -         9.334       -         
+head_cry[21]          MUXCY_L     LO       Out     0.041     9.374       -         
+head_cry[21]          Net         -        -       0.000     -           2         
+head_cry[22]          MUXCY_L     CI       In      -         9.374       -         
+head_cry[22]          MUXCY_L     LO       Out     0.041     9.415       -         
+head_cry[22]          Net         -        -       0.000     -           2         
+head_cry[23]          MUXCY_L     CI       In      -         9.415       -         
+head_cry[23]          MUXCY_L     LO       Out     0.041     9.455       -         
+head_cry[23]          Net         -        -       0.000     -           2         
+head_cry[24]          MUXCY_L     CI       In      -         9.455       -         
+head_cry[24]          MUXCY_L     LO       Out     0.041     9.496       -         
+head_cry[24]          Net         -        -       0.000     -           2         
+head_cry[25]          MUXCY_L     CI       In      -         9.496       -         
+head_cry[25]          MUXCY_L     LO       Out     0.041     9.536       -         
+head_cry[25]          Net         -        -       0.000     -           2         
+head_cry[26]          MUXCY_L     CI       In      -         9.536       -         
+head_cry[26]          MUXCY_L     LO       Out     0.041     9.577       -         
+head_cry[26]          Net         -        -       0.000     -           2         
+head_cry[27]          MUXCY_L     CI       In      -         9.577       -         
+head_cry[27]          MUXCY_L     LO       Out     0.041     9.617       -         
+head_cry[27]          Net         -        -       0.000     -           2         
+head_cry[28]          MUXCY_L     CI       In      -         9.617       -         
+head_cry[28]          MUXCY_L     LO       Out     0.041     9.658       -         
+head_cry[28]          Net         -        -       0.000     -           2         
+head_cry[29]          MUXCY_L     CI       In      -         9.658       -         
+head_cry[29]          MUXCY_L     LO       Out     0.041     9.698       -         
+head_cry[29]          Net         -        -       0.000     -           2         
+head_cry[30]          MUXCY_L     CI       In      -         9.698       -         
+head_cry[30]          MUXCY_L     LO       Out     0.041     9.739       -         
+head_cry[30]          Net         -        -       0.000     -           1         
+head_s[31]            XORCY       CI       In      -         9.739       -         
+head_s[31]            XORCY       O        Out     0.459     10.198      -         
+head_s[31]            Net         -        -       0.000     -           1         
+head[31]              FD          D        In      -         10.198      -         
+===================================================================================
+Total path delay (propagation time + setup) of 10.907 is 6.303(57.8%) logic and 4.604(42.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                       Arrival           
+Instance        Reference     Type     Pin     Net             Time        Slack 
+                Clock                                                            
+---------------------------------------------------------------------------------
+DB_e_i          System        LDP      Q       DB_e_i          5.127       -1.798
+DB_e_rep0_i     System        LDP      Q       DB_e_rep0_i     5.127       -1.798
+sram_0[0]       System        LD       Q       sram_0[0]       1.085       6.781 
+sram_0[1]       System        LD       Q       sram_0[1]       1.085       6.781 
+sram_2[0]       System        LD       Q       sram_2[0]       1.085       6.781 
+sram_2[1]       System        LD       Q       sram_2[1]       1.085       6.781 
+sram_1[0]       System        LD       Q       sram_1[0]       1.085       6.791 
+sram_1[1]       System        LD       Q       sram_1[1]       1.085       6.791 
+sram_3[0]       System        LD       Q       sram_3[0]       1.085       6.791 
+sram_3[1]       System        LD       Q       sram_3[1]       1.085       6.791 
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                    Required           
+Instance      Reference     Type     Pin     Net          Time         Slack 
+              Clock                                                          
+-----------------------------------------------------------------------------
+sram_0[0]     System        LD       D       DB_in[0]     9.480        -1.798
+sram_0[1]     System        LD       D       DB_in[1]     9.480        -1.798
+sram_1[0]     System        LD       D       DB_in[0]     9.480        -1.798
+sram_1[1]     System        LD       D       DB_in[1]     9.480        -1.798
+sram_2[0]     System        LD       D       DB_in[0]     9.480        -1.798
+sram_2[1]     System        LD       D       DB_in[1]     9.480        -1.798
+sram_3[0]     System        LD       D       DB_in[0]     9.480        -1.798
+sram_3[1]     System        LD       D       DB_in[1]     9.480        -1.798
+DB_1[0]       System        LDC      D       N_73         9.480        6.781 
+DB_1[1]       System        LDC      D       N_74         9.480        6.781 
+=============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.189
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.480
+
+    - Propagation time:                      11.278
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.798
+
+    Number of logic level(s):                1
+    Starting point:                          DB_e_i / Q
+    Ending point:                            sram_0[1] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+DB_e_i             LDP       Q        Out     5.127     5.127       -         
+DB_e_i             Net       -        -       0.000     -           1         
+DB_iobuf[1]        IOBUF     T        In      -         5.127       -         
+DB_iobuf[1]        IOBUF     O        Out     5.127     10.254      -         
+DB_in[1]           Net       -        -       1.024     -           4         
+sram_0[1]          LD        D        In      -         11.278      -         
+==============================================================================
+Total path delay (propagation time + setup) of 11.987 is 10.963(91.5%) logic and 1.024(8.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.189
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.480
+
+    - Propagation time:                      11.278
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.798
+
+    Number of logic level(s):                1
+    Starting point:                          DB_e_rep0_i / Q
+    Ending point:                            sram_0[0] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+DB_e_rep0_i        LDP       Q        Out     5.127     5.127       -         
+DB_e_rep0_i        Net       -        -       0.000     -           1         
+DB_iobuf[0]        IOBUF     T        In      -         5.127       -         
+DB_iobuf[0]        IOBUF     O        Out     5.127     10.254      -         
+DB_in[0]           Net       -        -       1.024     -           4         
+sram_0[0]          LD        D        In      -         11.278      -         
+==============================================================================
+Total path delay (propagation time + setup) of 11.987 is 10.963(91.5%) logic and 1.024(8.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.189
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.480
+
+    - Propagation time:                      11.278
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.798
+
+    Number of logic level(s):                1
+    Starting point:                          DB_e_i / Q
+    Ending point:                            sram_2[1] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+DB_e_i             LDP       Q        Out     5.127     5.127       -         
+DB_e_i             Net       -        -       0.000     -           1         
+DB_iobuf[1]        IOBUF     T        In      -         5.127       -         
+DB_iobuf[1]        IOBUF     O        Out     5.127     10.254      -         
+DB_in[1]           Net       -        -       1.024     -           4         
+sram_2[1]          LD        D        In      -         11.278      -         
+==============================================================================
+Total path delay (propagation time + setup) of 11.987 is 10.963(91.5%) logic and 1.024(8.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.189
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.480
+
+    - Propagation time:                      11.278
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.798
+
+    Number of logic level(s):                1
+    Starting point:                          DB_e_i / Q
+    Ending point:                            sram_1[1] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+DB_e_i             LDP       Q        Out     5.127     5.127       -         
+DB_e_i             Net       -        -       0.000     -           1         
+DB_iobuf[1]        IOBUF     T        In      -         5.127       -         
+DB_iobuf[1]        IOBUF     O        Out     5.127     10.254      -         
+DB_in[1]           Net       -        -       1.024     -           4         
+sram_1[1]          LD        D        In      -         11.278      -         
+==============================================================================
+Total path delay (propagation time + setup) of 11.987 is 10.963(91.5%) logic and 1.024(8.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.189
+    - Setup time:                            0.709
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         9.480
+
+    - Propagation time:                      11.278
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -1.798
+
+    Number of logic level(s):                1
+    Starting point:                          DB_e_i / Q
+    Ending point:                            sram_3[1] / D
+    The start point is clocked by            System [falling] on pin G
+    The end   point is clocked by            System [falling] on pin G
+
+Instance / Net               Pin      Pin               Arrival     No. of    
+Name               Type      Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------
+DB_e_i             LDP       Q        Out     5.127     5.127       -         
+DB_e_i             Net       -        -       0.000     -           1         
+DB_iobuf[1]        IOBUF     T        In      -         5.127       -         
+DB_iobuf[1]        IOBUF     O        Out     5.127     10.254      -         
+DB_in[1]           Net       -        -       1.024     -           4         
+sram_3[1]          LD        D        In      -         11.278      -         
+==============================================================================
+Total path delay (propagation time + setup) of 11.987 is 10.963(91.5%) logic and 1.024(8.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for LIFO 
+
+Mapping to part: xc2s15cs144-6
+Cell usage:
+FD              32 uses
+GND             1 use
+LD              8 uses
+LDC             2 uses
+LDP             2 uses
+MUXCY_L         32 uses
+MUXF5           2 uses
+VCC             1 use
+XORCY           32 uses
+LUT1            1 use
+LUT2            35 uses
+LUT3            9 uses
+LUT4            14 uses
+
+I/O ports: 6
+I/O primitives: 6
+IBUF           1 use
+IBUFG          1 use
+IOBUF          2 uses
+OBUF           2 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   32 (8%)
+I/O Latch bits:                     2
+Latch bits not including I/Os:      10 (2%)
+
+Global Clock Buffers: 1 of 4 (25%)
+
+Total load per clock:
+   LIFO|CLK: 32
+
+Mapping Summary:
+Total  LUTs: 59 (15%)
+
+Distribution of All Consumed LUTs = LUT1 + LUT2 + LUT3 + LUT4 
+Distribution of All Consumed Luts 59 = 1 + 35 + 9 + 14 
+
+
+Region Summary:
+Other LUTs: 59 Other Registers: 44
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 48MB peak: 130MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Nov 14 17:24:27 2014
+
+###########################################################]

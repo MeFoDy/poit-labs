@@ -1,0 +1,48 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|Lab06.LIFO|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-verification_mode|0|-nram|-divnmod|-loadunimacro|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|Lab06|-lib|Lab06|-lib|Lab06|-lib|Lab06|-lib|Lab06"
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\bin64\\c_vhdl.exe":1361821150
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\location.map":1361868558
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\std.vhd":1361821524
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\snps_haps_pkg.vhd":1361821524
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\std1164.vhd":1361821524
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\numeric.vhd":1361821524
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\umr_capim.vhd":1361821526
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\arith.vhd":1361821524
+#CUR:"E:\\Embedded\\Synplify\\fpga_H201303\\lib\\vhd\\unsigned.vhd":1361821526
+#CUR:"E:\\Embedded\\Projects\\POCP\\Lab06\\src\\RegFile.vhd":1415467333
+#CUR:"E:\\Embedded\\Projects\\POCP\\Lab06\\src\\RegN.vhd":1415466827
+#CUR:"E:\\Embedded\\Projects\\POCP\\Lab06\\src\\RAM.vhd":1415974500
+#CUR:"E:\\Embedded\\Projects\\POCP\\Lab06\\src\\LIFO.vhd":1415466827
+#CUR:"E:\\Embedded\\Projects\\POCP\\Lab06\\src\\RAM_Ham.vhd":1415467701
+0 "E:\Embedded\Projects\POCP\Lab06\src\RegFile.vhd" vhdl
+1 "E:\Embedded\Projects\POCP\Lab06\src\RegN.vhd" vhdl
+2 "E:\Embedded\Projects\POCP\Lab06\src\RAM.vhd" vhdl
+3 "E:\Embedded\Projects\POCP\Lab06\src\LIFO.vhd" vhdl
+4 "E:\Embedded\Projects\POCP\Lab06\src\RAM_Ham.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 1 
+1 -1
+2 -1
+3 -1
+4 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 0 
+2 -1
+3 -1
+4 -1
+
+# Design Unit to File Association
+arch lab06 regfile beh 0
+module lab06 regfile 0
+arch lab06 regn beh 1
+module lab06 regn 1
+arch lab06 ram beh 2
+module lab06 ram 2
+arch lab06 lifo beh 3
+module lab06 lifo 3
+arch lab06 ram_ham beh 4
+module lab06 ram_ham 4

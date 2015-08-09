@@ -1,0 +1,2 @@
+@W: FX845 |Cannot determine Xilinx version. Please check Xilinx environment variable. Writing UCF for version ISE 11.1
+@W: MT420 |Found inferred clock RegFile|WE with period 1000.00ns. Please declare a user-defined clock on object "p:WE"
