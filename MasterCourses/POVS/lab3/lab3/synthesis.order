@@ -1,0 +1,6 @@
+i<>.\src\BiStableElement.vhd
+i<>.\src\AND2.vhd
+i<>.\src\Inv.vhd
+i<>.\src\NOR2.vhd
+i<>.\src\TestBench\bistableelement_TB.vhd
+i<>.\src\RS_latch.vhd

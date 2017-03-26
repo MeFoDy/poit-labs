@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\lab3\library.cfg"  -j "c:\My_Designs\lab3\lab3\projlib.cfg"  -d "c:\My_Designs\lab3\lab3\compile"   -work lab3  -O3 -e 100 -2002 "c:\My_Designs\lab3\lab3\src\2\RS_latch.vhd"

@@ -1,0 +1,16 @@
+520
+~E 1 "./src/AND2.vhd" 4 AND2
+~A 1 "./src/AND2.vhd" 10 Arch
+~E 1 "./src/1/BiStableElement.vhd" 28 BiStableElement
+~A 1 "./src/1/BiStableElement.vhd" 37 BiStableElement
+~E 1 "./src/TestBench/bistableelement_TB.vhd" 6 bistableelement_tb
+~A 1 "./src/TestBench/bistableelement_TB.vhd" 9 TB_ARCHITECTURE
+~E 1 "./src/Inv.vhd" 4 Inv
+~A 1 "./src/Inv.vhd" 10 Arch
+~E 1 "./src/NOR2.vhd" 4 NOR2
+~A 1 "./src/NOR2.vhd" 10 Arch
+~E 1 "./src/RS_latch.vhd" 28 RS_latch
+~A 1 "./src/2/RS_latch.vhd" 57 Beh
+~A 1 "./src/2/RS_latch.vhd" 39 RS_latch
+~A 1 "./src/2/RS_latch.vhd" 39 Struct
+~C 1 "./src/TestBench/bistableelement_TB.vhd" 37 testbench_for_bistableelement

@@ -1,0 +1,103 @@
+timestamp=1418383428379
+
+[and2]
+A/arch=A/Arch 21|./src/AND2.vhd|10|1*107362
+BinI32/arch=3*23130
+I=0*402
+I/arch=I/Arch 0*708
+M=11|0|v98|1418380781635|./src/AND2.vhd|0*145*0xd4e6c6a99a12d6e661a92e8eacffd3e7400d5404|0*333*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418382482399|./src/AND2.vhd|0*500*0x053ae65da28c6f1f5dc6deb3e92301b10bce00e5|0*631*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/AND2.vhd|4
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[bistableelement]
+A/bistableelement=A/BiStableElement 21|./src/1/BiStableElement.vhd|37|1*110068
+BinI32/bistableelement=3*24222
+I=0*2877
+I/bistableelement=I/BiStableElement 0*6773
+M=11|0|v98|1418380781756|./src/1/BiStableElement.vhd|0*2553*0x1be12b80a059c80312d5a2e64c81fa725eedc167|0*2784*0xab32bc1a2daf049573e14469f634e0e6
+M/bistableelement=M/BiStableElement 21|0|v98|1418382483077|./src/1/BiStableElement.vhd|0*6285*0x295f09babd0bad63947f66d35a545bf4f95dc2a1|0*6661*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/1/BiStableElement.vhd|28
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/bistableelement=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[bistableelement_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/bistableelement_TB.vhd|9|1*111787
+I=0*3820
+I/tb_architecture=I/TB_ARCHITECTURE 0*4424
+M=11|0|v98|1418380938118|./src/TestBench/bistableelement_TB.vhd|0*3508*0x5b80f3b9f0228aa1fa42e0646a5eedc941cf55dd|0*3713*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v98|1418382483299|./src/TestBench/bistableelement_TB.vhd|0*3932*0xca619541fab468a8a121d4c2a5c8d940986eb8b8|0*4298*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/bistableelement_TB.vhd|6
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/tb_architecture=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[inv]
+A/arch=A/Arch 21|./src/Inv.vhd|10|1*108280
+BinI32/arch=3*23503
+I=0*1181
+I/arch=I/Arch 0*1478
+M=11|0|v98|1418380781696|./src/Inv.vhd|0*934*0x0fcae18568e26ecd30e7d6593a7416ca50620a7e|0*1114*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418382482619|./src/Inv.vhd|0*1278*0x79b00fe0316c926643fb2895ba08231754ebd8c2|0*1403*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/Inv.vhd|4
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[nor2]
+A/arch=A/Arch 21|./src/NOR2.vhd|10|1*109150
+BinI32/arch=3*23849
+I=0*1982
+I/arch=I/Arch 0*2288
+M=11|0|v98|1418380781726|./src/NOR2.vhd|0*1725*0x40443597a98f8cb05bbea17a091e93a1bfe2d6d6|0*1913*0xab32bc1a2daf049573e14469f634e0e6
+M/arch=M/Arch 21|0|v98|1418382482839|./src/NOR2.vhd|0*2080*0x52ce919eb426a8f3970443bc041d38bfb9be7a06|0*2211*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/NOR2.vhd|4
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/arch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[rs_latch]
+A/beh=A/Beh 21|./src/2/RS_latch.vhd|57|1*121714
+A/rs_latch=A/RS_latch 21|./src/2/RS_latch.vhd|39|1*117610
+A/struct=A/Struct 21|./src/2/RS_latch.vhd|39|1*119665
+BinI32/beh=3*25263
+BinI32/rs_latch=3*24587
+BinI32/struct=3*24926
+I=0*5778
+I/beh=I/Beh 0*8372
+I/rs_latch=I/RS_latch 0*7353
+I/struct=I/Struct 0*7916
+M=11|0|v98|1418381519606|./src/RS_latch.vhd|0*5462*0x37c0a2803f89a1f1cb21d59f6da748aaaf8e3f2d|0*5701*0xab32bc1a2daf049573e14469f634e0e6
+M/beh=M/Beh 21|0|v98|1418383428325|./src/2/RS_latch.vhd|0*8077*0x4da69cb4080d86cc146ec5b801076e6c847dacbb|0*8286*0xb33770ff1c10522f9491560174ac8e6c
+M/rs_latch=M/RS_latch 21|0|v98|1418383374381|./src/RS_latch.vhd|0*6949*0xb803e2e9bfd120651c32293a7d0d05f451c1d6c9|0*7264*0xb33770ff1c10522f9491560174ac8e6c
+M/struct=M/Struct 21|0|v98|1418383428321|./src/2/RS_latch.vhd|0*7516*0x6ef89385d255586f2b7b328e6656fae3717605bf|0*7827*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/RS_latch.vhd|28
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/rs_latch=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+Version/struct=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[testbench_for_bistableelement]
+Configures=bistableelement_tb.TB_ARCHITECTURE
+E=1*113035
+I=0*5099
+M=2|0|v98|1418382483302|./src/TestBench/bistableelement_TB.vhd|0*4615*0xaaa85d5393680f1625098d06a8cfa58e36eaffc5|0*4960*0xb33770ff1c10522f9491560174ac8e6c
+R=./src/TestBench/bistableelement_TB.vhd|37
+Version=9.1.2353.4205  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=520
+Version=73
+
+[~MFT]
+0=62|0lab3.mgf|8372|827
+1=214|1lab3.mgf|121714|111472
+3=142|3lab3.mgf|25263|23130
+
+[~U]
+and2=AND2 11|0*0|
+bistableelement=BiStableElement 11|0*2391|
+bistableelement_tb=11|0*3408|
+inv=Inv 11|0*811|
+nor2=NOR2 11|0*1580|
+rs_latch=RS_latch 11|0*5285|
+testbench_for_bistableelement=TESTBENCH_FOR_bistableelement 2||
+

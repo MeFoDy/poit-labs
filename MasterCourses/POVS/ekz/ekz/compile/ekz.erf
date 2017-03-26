@@ -1,0 +1,11 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\ekz\ekz\src\AOI.vhd" 
+MESSAGE "Compile Entity "AOI"" 
+MESSAGE "Compile Architecture "v1" of Entity "AOI"" 
+MESSAGE "Compile Architecture "v2" of Entity "AOI"" 
+MESSAGE "Compile Entity "mux2"" 
+MESSAGE "Compile Architecture "m1" of Entity "mux2"" 
+WARNING ELAB1_0026: "There is no default binding for component "INV". (No entity named "INV" was found)." "c:\My_Designs\ekz\ekz\src\AOI.vhd" 50 0
+MESSAGE "Compile Entity "D_FF"" 
+MESSAGE "Compile Architecture "F" of Entity "D_FF"" 
+SUCCESS "Compile success 0 Errors 1 Warnings  Analysis time :  78.0 [ms]" 

@@ -1,0 +1,91 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=lab3
+
+[Library]
+lab3=.\lab3.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=<none>
+fileopenfolder=C:\My_Designs\lab3\lab3\src
+FUNC_LIB=lab3
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+lab3=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=RS_latch
+WAVEFORMS=
+DEFWAVE=0
+ADD_HIERARCHY_SIGNALS=0
+
+[Groups]
+1=1
+TestBench=1
+2=1
+
+[Files]
+/AND2.vhd=-1
+/Inv.vhd=-1
+/NOR2.vhd=-1
+1/BiStableElement.vhd=-1
+TestBench/bistableelement_TB.vhd=-1
+TestBench/bistableelement_TB_runtest.do=-1
+2/RS_latch.vhd=-1
+
+[Files.Data]
+.\src\AND2.vhd=VHDL Source Code
+.\src\Inv.vhd=VHDL Source Code
+.\src\NOR2.vhd=VHDL Source Code
+.\src\1\BiStableElement.vhd=VHDL Source Code
+.\src\TestBench\bistableelement_TB.vhd=VHDL Test Bench
+.\src\TestBench\bistableelement_TB_runtest.do=Macro
+.\src\2\RS_latch.vhd=VHDL Source Code
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=bistableelement|BiStableElement|0 bistableelement_tb|TB_ARCHITECTURE|0 rs_latch|RS_latch|0 
+ShowHide=ShowTopLevel
+Selected=

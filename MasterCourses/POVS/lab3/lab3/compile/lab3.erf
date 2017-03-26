@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\lab3\lab3\src\2\RS_latch.vhd" 
+MESSAGE "Compile Entity "RS_latch"" 
+MESSAGE "Compile Architecture "Struct" of Entity "RS_latch"" 
+MESSAGE "Compile Architecture "Beh" of Entity "RS_latch"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

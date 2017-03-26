@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\ekz\library.cfg"  -j "c:\My_Designs\ekz\ekz\projlib.cfg"  -d "c:\My_Designs\ekz\ekz\compile"   -work ekz  -O3 -e 100 -2002 "c:\My_Designs\ekz\ekz\src\AOI.vhd"
